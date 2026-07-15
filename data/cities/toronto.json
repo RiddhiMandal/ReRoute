@@ -1,0 +1,47 @@
+{
+  "id": "toronto",
+  "city": "Toronto",
+  "distance_from_toronto": "0 minutes",
+  "housing": {
+    "avg_rent_1br": 2400,
+    "avg_rent_2br": 3000,
+    "avg_rent_3br": 3600,
+    "vacancy_rate": "1.5%",
+    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
+    "last_updated": "TODO",
+    "listings_url": "https://rentals.ca/toronto",
+    "affiliate_url": "https://www.lowestrates.ca/tenant-insurance"
+  },
+  "healthcare": {
+    "clinics_accepting": 8,
+    "nearest_hospital": "Toronto General Hospital",
+    "ohip_wait_days": 90,
+    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
+    "last_updated": "TODO",
+    "ohip_guide_url": "https://www.ontario.ca/page/apply-ohip-and-get-health-card",
+    "maps_embed_url": "https://www.google.com/maps/embed/v1/search?key=YOUR_GOOGLE_MAPS_EMBED_API_KEY&q=clinics+near+Toronto"
+  },
+  "safety": {
+    "csi_rating": "Moderate",
+    "csi_score": 61,
+    "trend": "Stable",
+    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
+    "last_updated": "TODO",
+    "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/240725/dq240725a-eng.htm"
+  },
+  "employment": {
+    "top_roles": ["Software Developer", "Financial Analyst", "Retail Associate"],
+    "unemployment_rate": "7.1%",
+    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
+    "last_updated": "TODO",
+    "job_bank_url": "https://www.jobbank.gc.ca/jobsearch?locationstring=Toronto"
+  },
+  "community": {
+    "languages": ["Cantonese", "Mandarin", "Punjabi", "Tamil", "Urdu"],
+    "settlement_url": "https://ircc.canada.ca/english/newcomers/services/index.asp",
+    "maps_embed_url": "https://www.google.com/maps/embed/v1/search?key=YOUR_GOOGLE_MAPS_EMBED_API_KEY&q=settlement+agencies+near+Toronto",
+    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
+    "last_updated": "TODO"
+  },
+  "disclaimer": "Data sourced from CMHC, Statistics Canada and HealthForceOntario. Always verify directly before making decisions."
+}

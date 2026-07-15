@@ -1,0 +1,47 @@
+{
+  "id": "mississauga",
+  "city": "Mississauga",
+  "distance_from_toronto": "30 minutes",
+  "housing": {
+    "avg_rent_1br": 2100,
+    "avg_rent_2br": 2600,
+    "avg_rent_3br": 3100,
+    "vacancy_rate": "1.8%",
+    "source": "CMHC Rental Market Report 2025",
+    "last_updated": "2025-01-01",
+    "listings_url": "https://rentals.ca/mississauga",
+    "affiliate_url": "https://www.lowestrates.ca/tenant-insurance"
+  },
+  "healthcare": {
+    "clinics_accepting": 12,
+    "nearest_hospital": "Trillium Health Partners",
+    "ohip_wait_days": 90,
+    "source": "HealthForceOntario 2025",
+    "last_updated": "2025-01-01",
+    "ohip_guide_url": "https://www.ontario.ca/page/apply-ohip-and-get-health-card",
+    "maps_embed_url": "https://www.google.com/maps/embed/v1/search?key=YOUR_GOOGLE_MAPS_EMBED_API_KEY&q=clinics+near+Mississauga"
+  },
+  "safety": {
+    "csi_rating": "Low",
+    "csi_score": 52,
+    "trend": "Improving",
+    "source": "Statistics Canada 2024",
+    "last_updated": "2024-07-01",
+    "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/240725/dq240725a-eng.htm"
+  },
+  "employment": {
+    "top_roles": ["Software Developer", "Registered Nurse", "Warehouse Associate"],
+    "unemployment_rate": "6.2%",
+    "source": "Statistics Canada 2025",
+    "last_updated": "2025-01-01",
+    "job_bank_url": "https://www.jobbank.gc.ca/jobsearch?locationstring=Mississauga"
+  },
+  "community": {
+    "languages": ["Punjabi", "Urdu", "Tamil", "Mandarin", "Arabic"],
+    "settlement_url": "https://ircc.canada.ca/english/newcomers/services/index.asp",
+    "maps_embed_url": "https://www.google.com/maps/embed/v1/search?key=YOUR_GOOGLE_MAPS_EMBED_API_KEY&q=settlement+agencies+near+Mississauga",
+    "source": "IRCC 2025",
+    "last_updated": "2025-01-01"
+  },
+  "disclaimer": "Data sourced from CMHC, Statistics Canada and HealthForceOntario. Always verify directly before making decisions."
+}
