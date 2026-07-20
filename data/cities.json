@@ -1,0 +1,3259 @@
+{
+  "cities": [
+    {
+      "id": "toronto",
+      "name": "Toronto",
+      "lat": 43.6532,
+      "lng": -79.3832,
+      "distance_from_toronto_km": 0.0,
+      "housing": {
+        "avg_rent": {
+          "studio": 2100,
+          "1br": 2450,
+          "2br": 3000,
+          "3br": 3550
+        },
+        "vacancy_rate": 0.8,
+        "affordability_tier": "expensive",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Toronto",
+            "bedrooms": 0,
+            "rent": 2056,
+            "link": "https://rentals.ca/toronto"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Toronto",
+            "bedrooms": 1,
+            "rent": 2450,
+            "link": "https://rentals.ca/toronto"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Toronto",
+            "bedrooms": 2,
+            "rent": 3057,
+            "link": "https://rentals.ca/toronto"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 64,
+        "walk_in_clinics": 38,
+        "hospitals": [
+          "Toronto General Hospital",
+          "Toronto West Health Sciences Centre"
+        ],
+        "facilities": [
+          {
+            "name": "Toronto General Hospital",
+            "type": "hospital",
+            "lat": 43.6473,
+            "lng": -79.40916
+          },
+          {
+            "name": "Toronto West Health Sciences Centre",
+            "type": "hospital",
+            "lat": 43.65688,
+            "lng": -79.42733
+          },
+          {
+            "name": "Toronto Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.6591,
+            "lng": -79.32721
+          },
+          {
+            "name": "Toronto Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.66497,
+            "lng": -79.37282
+          },
+          {
+            "name": "Toronto Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.61373,
+            "lng": -79.3725
+          },
+          {
+            "name": "Toronto Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.61262,
+            "lng": -79.4181
+          },
+          {
+            "name": "Toronto Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.6583,
+            "lng": -79.4291
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 51.9,
+        "trend": "down",
+        "nearest_police_station": "Toronto Police Station",
+        "nearest_fire_station": "Toronto Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.64664,
+            "lng": -79.37862,
+            "severity": 55.0
+          },
+          {
+            "name": "North End",
+            "lat": 43.65809,
+            "lng": -79.3627,
+            "severity": 34.4
+          },
+          {
+            "name": "East Side",
+            "lat": 43.65897,
+            "lng": -79.41835,
+            "severity": 34.2
+          },
+          {
+            "name": "West End",
+            "lat": 43.6704,
+            "lng": -79.37595,
+            "severity": 57.1
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.65291,
+            "lng": -79.37963,
+            "severity": 64.1
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 5200,
+        "avg_salary": 73126,
+        "labour_demand": "high",
+        "job_listings": [
+          {
+            "title": "Personal Support Worker",
+            "employer": "Regional Health Network \u2014 Toronto",
+            "salary": 58000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Warehouse Associate",
+            "employer": "Logistics & Distribution Centre \u2014 Toronto",
+            "salary": 70500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Accountant",
+            "employer": "Financial Services Firm \u2014 Toronto",
+            "salary": 94500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Registered Nurse",
+            "employer": "Regional Health Network \u2014 Toronto",
+            "salary": 56000,
+            "type": "Contract"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 116,
+        "cultural_orgs": 44,
+        "ethnic_grocery_stores": 77,
+        "settlement_agencies": [
+          "Newcomer Centre of Peel",
+          "Skills for Change",
+          "York Region Newcomer Services"
+        ]
+      }
+    },
+    {
+      "id": "mississauga",
+      "name": "Mississauga",
+      "lat": 43.589,
+      "lng": -79.6441,
+      "distance_from_toronto_km": 22.2,
+      "housing": {
+        "avg_rent": {
+          "studio": 1750,
+          "1br": 2100,
+          "2br": 2650,
+          "3br": 3200
+        },
+        "vacancy_rate": 1.8,
+        "affordability_tier": "moderate",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Mississauga",
+            "bedrooms": 0,
+            "rent": 1791,
+            "link": "https://rentals.ca/mississauga"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Mississauga",
+            "bedrooms": 1,
+            "rent": 2138,
+            "link": "https://rentals.ca/mississauga"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Mississauga",
+            "bedrooms": 2,
+            "rent": 2667,
+            "link": "https://rentals.ca/mississauga"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 51,
+        "walk_in_clinics": 25,
+        "hospitals": [
+          "Mississauga Memorial Hospital",
+          "Mississauga West Regional Health Centre"
+        ],
+        "facilities": [
+          {
+            "name": "Mississauga Memorial Hospital",
+            "type": "hospital",
+            "lat": 43.60554,
+            "lng": -79.66533
+          },
+          {
+            "name": "Mississauga West Regional Health Centre",
+            "type": "hospital",
+            "lat": 43.62361,
+            "lng": -79.68233
+          },
+          {
+            "name": "Mississauga Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.58162,
+            "lng": -79.61193
+          },
+          {
+            "name": "Mississauga Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.55765,
+            "lng": -79.64548
+          },
+          {
+            "name": "Mississauga Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.54749,
+            "lng": -79.62305
+          },
+          {
+            "name": "Mississauga Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.61284,
+            "lng": -79.63496
+          },
+          {
+            "name": "Mississauga Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.62283,
+            "lng": -79.6674
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 67.6,
+        "trend": "down",
+        "nearest_police_station": "Mississauga Police Station",
+        "nearest_fire_station": "Mississauga Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.60483,
+            "lng": -79.63347,
+            "severity": 71.1
+          },
+          {
+            "name": "North End",
+            "lat": 43.58545,
+            "lng": -79.60582,
+            "severity": 87.2
+          },
+          {
+            "name": "East Side",
+            "lat": 43.5869,
+            "lng": -79.62561,
+            "severity": 48.3
+          },
+          {
+            "name": "West End",
+            "lat": 43.60534,
+            "lng": -79.62753,
+            "severity": 89.3
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.6151,
+            "lng": -79.66836,
+            "severity": 62.6
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 3519,
+        "avg_salary": 68337,
+        "labour_demand": "high",
+        "job_listings": [
+          {
+            "title": "Retail Sales Associate",
+            "employer": "Retail Chain \u2014 Mississauga",
+            "salary": 63500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Administrative Assistant",
+            "employer": "School Board \u2014 Mississauga",
+            "salary": 79500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Early Childhood Educator",
+            "employer": "School Board \u2014 Mississauga",
+            "salary": 54500,
+            "type": "Part-time"
+          },
+          {
+            "title": "Personal Support Worker",
+            "employer": "Regional Health Network \u2014 Mississauga",
+            "salary": 72500,
+            "type": "Part-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 89,
+        "cultural_orgs": 36,
+        "ethnic_grocery_stores": 54,
+        "settlement_agencies": [
+          "Skills for Change",
+          "Newcomer Centre of Peel",
+          "COSTI Immigrant Services"
+        ]
+      }
+    },
+    {
+      "id": "brampton",
+      "name": "Brampton",
+      "lat": 43.7315,
+      "lng": -79.7624,
+      "distance_from_toronto_km": 31.7,
+      "housing": {
+        "avg_rent": {
+          "studio": 1780,
+          "1br": 2130,
+          "2br": 2680,
+          "3br": 3230
+        },
+        "vacancy_rate": 1.9,
+        "affordability_tier": "expensive",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Brampton",
+            "bedrooms": 0,
+            "rent": 1804,
+            "link": "https://rentals.ca/brampton"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Brampton",
+            "bedrooms": 1,
+            "rent": 2100,
+            "link": "https://rentals.ca/brampton"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Brampton",
+            "bedrooms": 2,
+            "rent": 2689,
+            "link": "https://rentals.ca/brampton"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 39,
+        "walk_in_clinics": 23,
+        "hospitals": [
+          "Brampton Memorial Hospital"
+        ],
+        "facilities": [
+          {
+            "name": "Brampton Memorial Hospital",
+            "type": "hospital",
+            "lat": 43.72364,
+            "lng": -79.72522
+          },
+          {
+            "name": "Brampton Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.69371,
+            "lng": -79.76876
+          },
+          {
+            "name": "Brampton Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.73595,
+            "lng": -79.71443
+          },
+          {
+            "name": "Brampton Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.76026,
+            "lng": -79.71686
+          },
+          {
+            "name": "Brampton Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.71154,
+            "lng": -79.773
+          },
+          {
+            "name": "Brampton Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.71878,
+            "lng": -79.71433
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 54.0,
+        "trend": "up",
+        "nearest_police_station": "Brampton Police Station",
+        "nearest_fire_station": "Brampton Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.76861,
+            "lng": -79.80171,
+            "severity": 39.8
+          },
+          {
+            "name": "North End",
+            "lat": 43.70977,
+            "lng": -79.79243,
+            "severity": 53.3
+          },
+          {
+            "name": "East Side",
+            "lat": 43.73873,
+            "lng": -79.78912,
+            "severity": 32.2
+          },
+          {
+            "name": "West End",
+            "lat": 43.72493,
+            "lng": -79.77712,
+            "severity": 56.9
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.76824,
+            "lng": -79.74095,
+            "severity": 54.7
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 2961,
+        "avg_salary": 64233,
+        "labour_demand": "medium",
+        "job_listings": [
+          {
+            "title": "Machine Operator",
+            "employer": "Manufacturing Plant \u2014 Brampton",
+            "salary": 61500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Personal Support Worker",
+            "employer": "Regional Health Network \u2014 Brampton",
+            "salary": 67000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Registered Nurse",
+            "employer": "Regional Health Network \u2014 Brampton",
+            "salary": 77500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Retail Sales Associate",
+            "employer": "Retail Chain \u2014 Brampton",
+            "salary": 76500,
+            "type": "Contract"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 80,
+        "cultural_orgs": 28,
+        "ethnic_grocery_stores": 45,
+        "settlement_agencies": [
+          "COSTI Immigrant Services",
+          "Welcome Centre Immigrant Services",
+          "Skills for Change"
+        ]
+      }
+    },
+    {
+      "id": "vaughan",
+      "name": "Vaughan",
+      "lat": 43.8563,
+      "lng": -79.5085,
+      "distance_from_toronto_km": 24.7,
+      "housing": {
+        "avg_rent": {
+          "studio": 1880,
+          "1br": 2230,
+          "2br": 2780,
+          "3br": 3330
+        },
+        "vacancy_rate": 1.6,
+        "affordability_tier": "expensive",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Vaughan",
+            "bedrooms": 0,
+            "rent": 1892,
+            "link": "https://rentals.ca/vaughan"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Vaughan",
+            "bedrooms": 1,
+            "rent": 2221,
+            "link": "https://rentals.ca/vaughan"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Vaughan",
+            "bedrooms": 2,
+            "rent": 2848,
+            "link": "https://rentals.ca/vaughan"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 45,
+        "walk_in_clinics": 24,
+        "hospitals": [
+          "Vaughan Memorial Hospital",
+          "Vaughan West Regional Health Centre"
+        ],
+        "facilities": [
+          {
+            "name": "Vaughan Memorial Hospital",
+            "type": "hospital",
+            "lat": 43.89123,
+            "lng": -79.51444
+          },
+          {
+            "name": "Vaughan West Regional Health Centre",
+            "type": "hospital",
+            "lat": 43.82819,
+            "lng": -79.49842
+          },
+          {
+            "name": "Vaughan Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.82048,
+            "lng": -79.50014
+          },
+          {
+            "name": "Vaughan Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.8596,
+            "lng": -79.45233
+          },
+          {
+            "name": "Vaughan Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.86655,
+            "lng": -79.56226
+          },
+          {
+            "name": "Vaughan Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.82999,
+            "lng": -79.52399
+          },
+          {
+            "name": "Vaughan Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.86841,
+            "lng": -79.45151
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 63.2,
+        "trend": "stable",
+        "nearest_police_station": "Vaughan Police Station",
+        "nearest_fire_station": "Vaughan Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.86459,
+            "lng": -79.51141,
+            "severity": 46.3
+          },
+          {
+            "name": "North End",
+            "lat": 43.85533,
+            "lng": -79.45469,
+            "severity": 62.3
+          },
+          {
+            "name": "East Side",
+            "lat": 43.84104,
+            "lng": -79.54858,
+            "severity": 74.2
+          },
+          {
+            "name": "West End",
+            "lat": 43.87579,
+            "lng": -79.51091,
+            "severity": 71.7
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.85762,
+            "lng": -79.5417,
+            "severity": 83.1
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 3348,
+        "avg_salary": 66094,
+        "labour_demand": "high",
+        "job_listings": [
+          {
+            "title": "Administrative Assistant",
+            "employer": "School Board \u2014 Vaughan",
+            "salary": 85000,
+            "type": "Contract"
+          },
+          {
+            "title": "Machine Operator",
+            "employer": "Manufacturing Plant \u2014 Vaughan",
+            "salary": 65000,
+            "type": "Contract"
+          },
+          {
+            "title": "Registered Nurse",
+            "employer": "Regional Health Network \u2014 Vaughan",
+            "salary": 53500,
+            "type": "Contract"
+          },
+          {
+            "title": "Retail Sales Associate",
+            "employer": "Retail Chain \u2014 Vaughan",
+            "salary": 52000,
+            "type": "Full-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 87,
+        "cultural_orgs": 30,
+        "ethnic_grocery_stores": 60,
+        "settlement_agencies": [
+          "Working Women Community Centre",
+          "York Region Newcomer Services",
+          "Welcome Centre Immigrant Services"
+        ]
+      }
+    },
+    {
+      "id": "markham",
+      "name": "Markham",
+      "lat": 43.8561,
+      "lng": -79.337,
+      "distance_from_toronto_km": 22.9,
+      "housing": {
+        "avg_rent": {
+          "studio": 1780,
+          "1br": 2130,
+          "2br": 2680,
+          "3br": 3230
+        },
+        "vacancy_rate": 1.7,
+        "affordability_tier": "expensive",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Markham",
+            "bedrooms": 0,
+            "rent": 1810,
+            "link": "https://rentals.ca/markham"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Markham",
+            "bedrooms": 1,
+            "rent": 2134,
+            "link": "https://rentals.ca/markham"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Markham",
+            "bedrooms": 2,
+            "rent": 2757,
+            "link": "https://rentals.ca/markham"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 45,
+        "walk_in_clinics": 24,
+        "hospitals": [
+          "Markham General Hospital",
+          "Markham West Memorial Hospital"
+        ],
+        "facilities": [
+          {
+            "name": "Markham General Hospital",
+            "type": "hospital",
+            "lat": 43.8457,
+            "lng": -79.36475
+          },
+          {
+            "name": "Markham West Memorial Hospital",
+            "type": "hospital",
+            "lat": 43.8591,
+            "lng": -79.33673
+          },
+          {
+            "name": "Markham Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.86839,
+            "lng": -79.32283
+          },
+          {
+            "name": "Markham Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.88208,
+            "lng": -79.30468
+          },
+          {
+            "name": "Markham Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.82864,
+            "lng": -79.36961
+          },
+          {
+            "name": "Markham Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.84715,
+            "lng": -79.29905
+          },
+          {
+            "name": "Markham Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.82907,
+            "lng": -79.3379
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 61.4,
+        "trend": "stable",
+        "nearest_police_station": "Markham Police Station",
+        "nearest_fire_station": "Markham Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.87483,
+            "lng": -79.28186,
+            "severity": 74.2
+          },
+          {
+            "name": "North End",
+            "lat": 43.85385,
+            "lng": -79.3715,
+            "severity": 66.0
+          },
+          {
+            "name": "East Side",
+            "lat": 43.84347,
+            "lng": -79.30225,
+            "severity": 71.2
+          },
+          {
+            "name": "West End",
+            "lat": 43.8439,
+            "lng": -79.28356,
+            "severity": 42.9
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.82384,
+            "lng": -79.34037,
+            "severity": 54.3
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 3656,
+        "avg_salary": 67620,
+        "labour_demand": "high",
+        "job_listings": [
+          {
+            "title": "Personal Support Worker",
+            "employer": "Regional Health Network \u2014 Markham",
+            "salary": 81000,
+            "type": "Part-time"
+          },
+          {
+            "title": "Warehouse Associate",
+            "employer": "Logistics & Distribution Centre \u2014 Markham",
+            "salary": 90000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Electrician",
+            "employer": "Construction Company \u2014 Markham",
+            "salary": 78500,
+            "type": "Part-time"
+          },
+          {
+            "title": "Registered Nurse",
+            "employer": "Regional Health Network \u2014 Markham",
+            "salary": 71500,
+            "type": "Full-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 94,
+        "cultural_orgs": 34,
+        "ethnic_grocery_stores": 54,
+        "settlement_agencies": [
+          "Newcomer Centre of Peel",
+          "York Region Newcomer Services",
+          "Welcome Centre Immigrant Services"
+        ]
+      }
+    },
+    {
+      "id": "richmond_hill",
+      "name": "Richmond Hill",
+      "lat": 43.8828,
+      "lng": -79.4403,
+      "distance_from_toronto_km": 25.9,
+      "housing": {
+        "avg_rent": {
+          "studio": 1750,
+          "1br": 2100,
+          "2br": 2650,
+          "3br": 3200
+        },
+        "vacancy_rate": 2.2,
+        "affordability_tier": "moderate",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Richmond Hill",
+            "bedrooms": 0,
+            "rent": 1723,
+            "link": "https://rentals.ca/richmond-hill"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Richmond Hill",
+            "bedrooms": 1,
+            "rent": 2062,
+            "link": "https://rentals.ca/richmond-hill"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Richmond Hill",
+            "bedrooms": 2,
+            "rent": 2628,
+            "link": "https://rentals.ca/richmond-hill"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 45,
+        "walk_in_clinics": 26,
+        "hospitals": [
+          "Richmond Hill Memorial Hospital",
+          "Richmond Hill West Health Sciences Centre"
+        ],
+        "facilities": [
+          {
+            "name": "Richmond Hill Memorial Hospital",
+            "type": "hospital",
+            "lat": 43.88122,
+            "lng": -79.47248
+          },
+          {
+            "name": "Richmond Hill West Health Sciences Centre",
+            "type": "hospital",
+            "lat": 43.90364,
+            "lng": -79.45707
+          },
+          {
+            "name": "Richmond Hill Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.9099,
+            "lng": -79.38128
+          },
+          {
+            "name": "Richmond Hill Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.87342,
+            "lng": -79.45264
+          },
+          {
+            "name": "Richmond Hill Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.92305,
+            "lng": -79.41217
+          },
+          {
+            "name": "Richmond Hill Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.85307,
+            "lng": -79.48697
+          },
+          {
+            "name": "Richmond Hill Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.85137,
+            "lng": -79.38964
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 53.6,
+        "trend": "down",
+        "nearest_police_station": "Richmond Hill Police Station",
+        "nearest_fire_station": "Richmond Hill Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.90765,
+            "lng": -79.48015,
+            "severity": 68.0
+          },
+          {
+            "name": "North End",
+            "lat": 43.92174,
+            "lng": -79.42259,
+            "severity": 47.0
+          },
+          {
+            "name": "East Side",
+            "lat": 43.88675,
+            "lng": -79.48186,
+            "severity": 32.2
+          },
+          {
+            "name": "West End",
+            "lat": 43.92098,
+            "lng": -79.42344,
+            "severity": 54.8
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.91796,
+            "lng": -79.44775,
+            "severity": 70.0
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 3453,
+        "avg_salary": 65739,
+        "labour_demand": "high",
+        "job_listings": [
+          {
+            "title": "Retail Sales Associate",
+            "employer": "Retail Chain \u2014 Richmond Hill",
+            "salary": 68000,
+            "type": "Part-time"
+          },
+          {
+            "title": "Administrative Assistant",
+            "employer": "School Board \u2014 Richmond Hill",
+            "salary": 80500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Machine Operator",
+            "employer": "Manufacturing Plant \u2014 Richmond Hill",
+            "salary": 82000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Registered Nurse",
+            "employer": "Regional Health Network \u2014 Richmond Hill",
+            "salary": 85000,
+            "type": "Full-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 90,
+        "cultural_orgs": 34,
+        "ethnic_grocery_stores": 53,
+        "settlement_agencies": [
+          "Working Women Community Centre",
+          "York Region Newcomer Services",
+          "Newcomer Centre of Peel"
+        ]
+      }
+    },
+    {
+      "id": "oakville",
+      "name": "Oakville",
+      "lat": 43.4675,
+      "lng": -79.6877,
+      "distance_from_toronto_km": 32.1,
+      "housing": {
+        "avg_rent": {
+          "studio": 1610,
+          "1br": 1960,
+          "2br": 2510,
+          "3br": 3060
+        },
+        "vacancy_rate": 2.2,
+        "affordability_tier": "moderate",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Oakville",
+            "bedrooms": 0,
+            "rent": 1628,
+            "link": "https://rentals.ca/oakville"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Oakville",
+            "bedrooms": 1,
+            "rent": 1997,
+            "link": "https://rentals.ca/oakville"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Oakville",
+            "bedrooms": 2,
+            "rent": 2488,
+            "link": "https://rentals.ca/oakville"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 43,
+        "walk_in_clinics": 23,
+        "hospitals": [
+          "Oakville Health Sciences Centre"
+        ],
+        "facilities": [
+          {
+            "name": "Oakville Health Sciences Centre",
+            "type": "hospital",
+            "lat": 43.49705,
+            "lng": -79.70234
+          },
+          {
+            "name": "Oakville Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.46373,
+            "lng": -79.67727
+          },
+          {
+            "name": "Oakville Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.50392,
+            "lng": -79.69763
+          },
+          {
+            "name": "Oakville Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.50513,
+            "lng": -79.68749
+          },
+          {
+            "name": "Oakville Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.47037,
+            "lng": -79.68476
+          },
+          {
+            "name": "Oakville Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.42414,
+            "lng": -79.69519
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 63.5,
+        "trend": "up",
+        "nearest_police_station": "Oakville Police Station",
+        "nearest_fire_station": "Oakville Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.44181,
+            "lng": -79.74356,
+            "severity": 76.7
+          },
+          {
+            "name": "North End",
+            "lat": 43.44093,
+            "lng": -79.69069,
+            "severity": 73.4
+          },
+          {
+            "name": "East Side",
+            "lat": 43.47208,
+            "lng": -79.7073,
+            "severity": 64.3
+          },
+          {
+            "name": "West End",
+            "lat": 43.472,
+            "lng": -79.65569,
+            "severity": 46.2
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.47239,
+            "lng": -79.71602,
+            "severity": 53.7
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 3046,
+        "avg_salary": 63640,
+        "labour_demand": "medium",
+        "job_listings": [
+          {
+            "title": "Customer Service Representative",
+            "employer": "Retail Chain \u2014 Oakville",
+            "salary": 58500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Registered Nurse",
+            "employer": "Regional Health Network \u2014 Oakville",
+            "salary": 76500,
+            "type": "Part-time"
+          },
+          {
+            "title": "Truck Driver (AZ/DZ)",
+            "employer": "Logistics & Distribution Centre \u2014 Oakville",
+            "salary": 57500,
+            "type": "Contract"
+          },
+          {
+            "title": "Early Childhood Educator",
+            "employer": "School Board \u2014 Oakville",
+            "salary": 79500,
+            "type": "Full-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 77,
+        "cultural_orgs": 33,
+        "ethnic_grocery_stores": 43,
+        "settlement_agencies": [
+          "Skills for Change",
+          "Welcome Centre Immigrant Services",
+          "York Region Newcomer Services"
+        ]
+      }
+    },
+    {
+      "id": "burlington",
+      "name": "Burlington",
+      "lat": 43.3255,
+      "lng": -79.799,
+      "distance_from_toronto_km": 49.5,
+      "housing": {
+        "avg_rent": {
+          "studio": 1420,
+          "1br": 1770,
+          "2br": 2320,
+          "3br": 2870
+        },
+        "vacancy_rate": 2.7,
+        "affordability_tier": "affordable",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Burlington",
+            "bedrooms": 0,
+            "rent": 1411,
+            "link": "https://rentals.ca/burlington"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Burlington",
+            "bedrooms": 1,
+            "rent": 1720,
+            "link": "https://rentals.ca/burlington"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Burlington",
+            "bedrooms": 2,
+            "rent": 2352,
+            "link": "https://rentals.ca/burlington"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 32,
+        "walk_in_clinics": 17,
+        "hospitals": [
+          "Burlington Regional Health Centre"
+        ],
+        "facilities": [
+          {
+            "name": "Burlington Regional Health Centre",
+            "type": "hospital",
+            "lat": 43.32606,
+            "lng": -79.82426
+          },
+          {
+            "name": "Burlington Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.32759,
+            "lng": -79.75196
+          },
+          {
+            "name": "Burlington Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.36404,
+            "lng": -79.7461
+          },
+          {
+            "name": "Burlington Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.36088,
+            "lng": -79.83621
+          },
+          {
+            "name": "Burlington Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.32077,
+            "lng": -79.80943
+          },
+          {
+            "name": "Burlington Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.3158,
+            "lng": -79.82203
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 73.1,
+        "trend": "stable",
+        "nearest_police_station": "Burlington Police Station",
+        "nearest_fire_station": "Burlington Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.33938,
+            "lng": -79.80707,
+            "severity": 60.5
+          },
+          {
+            "name": "North End",
+            "lat": 43.30951,
+            "lng": -79.84153,
+            "severity": 85.3
+          },
+          {
+            "name": "East Side",
+            "lat": 43.36114,
+            "lng": -79.78284,
+            "severity": 67.2
+          },
+          {
+            "name": "West End",
+            "lat": 43.30548,
+            "lng": -79.83985,
+            "severity": 71.7
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.3455,
+            "lng": -79.84471,
+            "severity": 90.0
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 1737,
+        "avg_salary": 56455,
+        "labour_demand": "medium",
+        "job_listings": [
+          {
+            "title": "Software Developer",
+            "employer": "Tech Company \u2014 Burlington",
+            "salary": 43000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Electrician",
+            "employer": "Construction Company \u2014 Burlington",
+            "salary": 57000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Retail Sales Associate",
+            "employer": "Retail Chain \u2014 Burlington",
+            "salary": 65500,
+            "type": "Contract"
+          },
+          {
+            "title": "Machine Operator",
+            "employer": "Manufacturing Plant \u2014 Burlington",
+            "salary": 59500,
+            "type": "Contract"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 47,
+        "cultural_orgs": 19,
+        "ethnic_grocery_stores": 36,
+        "settlement_agencies": [
+          "Newcomer Centre of Peel",
+          "Skills for Change",
+          "Working Women Community Centre"
+        ]
+      }
+    },
+    {
+      "id": "milton",
+      "name": "Milton",
+      "lat": 43.5183,
+      "lng": -79.8774,
+      "distance_from_toronto_km": 42.5,
+      "housing": {
+        "avg_rent": {
+          "studio": 1560,
+          "1br": 1910,
+          "2br": 2460,
+          "3br": 3010
+        },
+        "vacancy_rate": 2.2,
+        "affordability_tier": "moderate",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Milton",
+            "bedrooms": 0,
+            "rent": 1542,
+            "link": "https://rentals.ca/milton"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Milton",
+            "bedrooms": 1,
+            "rent": 1892,
+            "link": "https://rentals.ca/milton"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Milton",
+            "bedrooms": 2,
+            "rent": 2531,
+            "link": "https://rentals.ca/milton"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 32,
+        "walk_in_clinics": 14,
+        "hospitals": [
+          "Milton Regional Health Centre"
+        ],
+        "facilities": [
+          {
+            "name": "Milton Regional Health Centre",
+            "type": "hospital",
+            "lat": 43.50662,
+            "lng": -79.88154
+          },
+          {
+            "name": "Milton Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.5366,
+            "lng": -79.89187
+          },
+          {
+            "name": "Milton Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.51987,
+            "lng": -79.90299
+          },
+          {
+            "name": "Milton Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.55981,
+            "lng": -79.92584
+          },
+          {
+            "name": "Milton Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.55601,
+            "lng": -79.91136
+          },
+          {
+            "name": "Milton Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.55221,
+            "lng": -79.92944
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 72.8,
+        "trend": "stable",
+        "nearest_police_station": "Milton Police Station",
+        "nearest_fire_station": "Milton Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.49981,
+            "lng": -79.83169,
+            "severity": 58.8
+          },
+          {
+            "name": "North End",
+            "lat": 43.53904,
+            "lng": -79.84139,
+            "severity": 88.2
+          },
+          {
+            "name": "East Side",
+            "lat": 43.53257,
+            "lng": -79.82717,
+            "severity": 68.7
+          },
+          {
+            "name": "West End",
+            "lat": 43.52127,
+            "lng": -79.87574,
+            "severity": 72.6
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.50428,
+            "lng": -79.90228,
+            "severity": 86.0
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 2170,
+        "avg_salary": 62241,
+        "labour_demand": "medium",
+        "job_listings": [
+          {
+            "title": "Warehouse Associate",
+            "employer": "Logistics & Distribution Centre \u2014 Milton",
+            "salary": 73000,
+            "type": "Contract"
+          },
+          {
+            "title": "Machine Operator",
+            "employer": "Manufacturing Plant \u2014 Milton",
+            "salary": 59000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Customer Service Representative",
+            "employer": "Retail Chain \u2014 Milton",
+            "salary": 59500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Early Childhood Educator",
+            "employer": "School Board \u2014 Milton",
+            "salary": 73500,
+            "type": "Full-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 56,
+        "cultural_orgs": 20,
+        "ethnic_grocery_stores": 40,
+        "settlement_agencies": [
+          "Skills for Change",
+          "Durham Region Unemployed Help Centre",
+          "York Region Newcomer Services"
+        ]
+      }
+    },
+    {
+      "id": "ajax",
+      "name": "Ajax",
+      "lat": 43.8509,
+      "lng": -79.0204,
+      "distance_from_toronto_km": 36.5,
+      "housing": {
+        "avg_rent": {
+          "studio": 1650,
+          "1br": 2000,
+          "2br": 2550,
+          "3br": 3100
+        },
+        "vacancy_rate": 2.1,
+        "affordability_tier": "moderate",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Ajax",
+            "bedrooms": 0,
+            "rent": 1715,
+            "link": "https://rentals.ca/ajax"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Ajax",
+            "bedrooms": 1,
+            "rent": 1980,
+            "link": "https://rentals.ca/ajax"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Ajax",
+            "bedrooms": 2,
+            "rent": 2563,
+            "link": "https://rentals.ca/ajax"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 42,
+        "walk_in_clinics": 23,
+        "hospitals": [
+          "Ajax Regional Health Centre"
+        ],
+        "facilities": [
+          {
+            "name": "Ajax Regional Health Centre",
+            "type": "hospital",
+            "lat": 43.84757,
+            "lng": -79.0365
+          },
+          {
+            "name": "Ajax Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.85568,
+            "lng": -78.96701
+          },
+          {
+            "name": "Ajax Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.82999,
+            "lng": -79.06679
+          },
+          {
+            "name": "Ajax Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.85332,
+            "lng": -79.05313
+          },
+          {
+            "name": "Ajax Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.81572,
+            "lng": -79.06276
+          },
+          {
+            "name": "Ajax Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.81039,
+            "lng": -79.05772
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 64.3,
+        "trend": "down",
+        "nearest_police_station": "Ajax Police Station",
+        "nearest_fire_station": "Ajax Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.83566,
+            "lng": -79.04236,
+            "severity": 75.7
+          },
+          {
+            "name": "North End",
+            "lat": 43.83387,
+            "lng": -79.02039,
+            "severity": 50.1
+          },
+          {
+            "name": "East Side",
+            "lat": 43.83849,
+            "lng": -79.07466,
+            "severity": 53.3
+          },
+          {
+            "name": "West End",
+            "lat": 43.8116,
+            "lng": -78.99415,
+            "severity": 66.5
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.82572,
+            "lng": -79.02324,
+            "severity": 83.4
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 2667,
+        "avg_salary": 64101,
+        "labour_demand": "medium",
+        "job_listings": [
+          {
+            "title": "Warehouse Associate",
+            "employer": "Logistics & Distribution Centre \u2014 Ajax",
+            "salary": 84000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Accountant",
+            "employer": "Financial Services Firm \u2014 Ajax",
+            "salary": 78500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Software Developer",
+            "employer": "Tech Company \u2014 Ajax",
+            "salary": 71000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Truck Driver (AZ/DZ)",
+            "employer": "Logistics & Distribution Centre \u2014 Ajax",
+            "salary": 50500,
+            "type": "Full-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 71,
+        "cultural_orgs": 29,
+        "ethnic_grocery_stores": 49,
+        "settlement_agencies": [
+          "Welcome Centre Immigrant Services",
+          "Newcomer Centre of Peel",
+          "York Region Newcomer Services"
+        ]
+      }
+    },
+    {
+      "id": "pickering",
+      "name": "Pickering",
+      "lat": 43.8384,
+      "lng": -79.0868,
+      "distance_from_toronto_km": 31.5,
+      "housing": {
+        "avg_rent": {
+          "studio": 1630,
+          "1br": 1980,
+          "2br": 2530,
+          "3br": 3080
+        },
+        "vacancy_rate": 1.9,
+        "affordability_tier": "moderate",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Pickering",
+            "bedrooms": 0,
+            "rent": 1640,
+            "link": "https://rentals.ca/pickering"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Pickering",
+            "bedrooms": 1,
+            "rent": 2001,
+            "link": "https://rentals.ca/pickering"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Pickering",
+            "bedrooms": 2,
+            "rent": 2604,
+            "link": "https://rentals.ca/pickering"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 38,
+        "walk_in_clinics": 19,
+        "hospitals": [
+          "Pickering General Hospital"
+        ],
+        "facilities": [
+          {
+            "name": "Pickering General Hospital",
+            "type": "hospital",
+            "lat": 43.83153,
+            "lng": -79.10206
+          },
+          {
+            "name": "Pickering Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.79825,
+            "lng": -79.13312
+          },
+          {
+            "name": "Pickering Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.79973,
+            "lng": -79.05666
+          },
+          {
+            "name": "Pickering Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.81638,
+            "lng": -79.12894
+          },
+          {
+            "name": "Pickering Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.80097,
+            "lng": -79.0441
+          },
+          {
+            "name": "Pickering Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.87178,
+            "lng": -79.06546
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 62.6,
+        "trend": "down",
+        "nearest_police_station": "Pickering Police Station",
+        "nearest_fire_station": "Pickering Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.82072,
+            "lng": -79.11583,
+            "severity": 53.5
+          },
+          {
+            "name": "North End",
+            "lat": 43.83511,
+            "lng": -79.12537,
+            "severity": 60.2
+          },
+          {
+            "name": "East Side",
+            "lat": 43.8192,
+            "lng": -79.0348,
+            "severity": 83.4
+          },
+          {
+            "name": "West End",
+            "lat": 43.84222,
+            "lng": -79.11558,
+            "severity": 83.1
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.82296,
+            "lng": -79.10295,
+            "severity": 40.6
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 2750,
+        "avg_salary": 64509,
+        "labour_demand": "medium",
+        "job_listings": [
+          {
+            "title": "Software Developer",
+            "employer": "Tech Company \u2014 Pickering",
+            "salary": 69500,
+            "type": "Contract"
+          },
+          {
+            "title": "Machine Operator",
+            "employer": "Manufacturing Plant \u2014 Pickering",
+            "salary": 85500,
+            "type": "Part-time"
+          },
+          {
+            "title": "Accountant",
+            "employer": "Financial Services Firm \u2014 Pickering",
+            "salary": 75000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Retail Sales Associate",
+            "employer": "Retail Chain \u2014 Pickering",
+            "salary": 61500,
+            "type": "Full-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 77,
+        "cultural_orgs": 27,
+        "ethnic_grocery_stores": 44,
+        "settlement_agencies": [
+          "Welcome Centre Immigrant Services",
+          "COSTI Immigrant Services",
+          "York Region Newcomer Services"
+        ]
+      }
+    },
+    {
+      "id": "whitby",
+      "name": "Whitby",
+      "lat": 43.8975,
+      "lng": -78.9429,
+      "distance_from_toronto_km": 44.6,
+      "housing": {
+        "avg_rent": {
+          "studio": 1460,
+          "1br": 1810,
+          "2br": 2360,
+          "3br": 2910
+        },
+        "vacancy_rate": 2.6,
+        "affordability_tier": "affordable",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Whitby",
+            "bedrooms": 0,
+            "rent": 1500,
+            "link": "https://rentals.ca/whitby"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Whitby",
+            "bedrooms": 1,
+            "rent": 1868,
+            "link": "https://rentals.ca/whitby"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Whitby",
+            "bedrooms": 2,
+            "rent": 2415,
+            "link": "https://rentals.ca/whitby"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 30,
+        "walk_in_clinics": 19,
+        "hospitals": [
+          "Whitby Health Sciences Centre"
+        ],
+        "facilities": [
+          {
+            "name": "Whitby Health Sciences Centre",
+            "type": "hospital",
+            "lat": 43.88986,
+            "lng": -78.96296
+          },
+          {
+            "name": "Whitby Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.90918,
+            "lng": -78.99489
+          },
+          {
+            "name": "Whitby Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.93873,
+            "lng": -78.8987
+          },
+          {
+            "name": "Whitby Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.86644,
+            "lng": -78.89375
+          },
+          {
+            "name": "Whitby Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.92309,
+            "lng": -78.93082
+          },
+          {
+            "name": "Whitby Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.92131,
+            "lng": -78.91529
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 71.0,
+        "trend": "up",
+        "nearest_police_station": "Whitby Police Station",
+        "nearest_fire_station": "Whitby Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.89703,
+            "lng": -78.9672,
+            "severity": 76.2
+          },
+          {
+            "name": "North End",
+            "lat": 43.8687,
+            "lng": -78.90632,
+            "severity": 80.5
+          },
+          {
+            "name": "East Side",
+            "lat": 43.89855,
+            "lng": -78.95087,
+            "severity": 79.8
+          },
+          {
+            "name": "West End",
+            "lat": 43.89795,
+            "lng": -78.89674,
+            "severity": 82.1
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.90305,
+            "lng": -78.90766,
+            "severity": 49.7
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 2211,
+        "avg_salary": 61813,
+        "labour_demand": "medium",
+        "job_listings": [
+          {
+            "title": "Accountant",
+            "employer": "Financial Services Firm \u2014 Whitby",
+            "salary": 65000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Software Developer",
+            "employer": "Tech Company \u2014 Whitby",
+            "salary": 55500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Retail Sales Associate",
+            "employer": "Retail Chain \u2014 Whitby",
+            "salary": 49500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Truck Driver (AZ/DZ)",
+            "employer": "Logistics & Distribution Centre \u2014 Whitby",
+            "salary": 51500,
+            "type": "Full-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 64,
+        "cultural_orgs": 21,
+        "ethnic_grocery_stores": 32,
+        "settlement_agencies": [
+          "Skills for Change",
+          "Welcome Centre Immigrant Services",
+          "Newcomer Centre of Peel"
+        ]
+      }
+    },
+    {
+      "id": "oshawa",
+      "name": "Oshawa",
+      "lat": 43.8971,
+      "lng": -78.8658,
+      "distance_from_toronto_km": 49.6,
+      "housing": {
+        "avg_rent": {
+          "studio": 1460,
+          "1br": 1810,
+          "2br": 2360,
+          "3br": 2910
+        },
+        "vacancy_rate": 3.0,
+        "affordability_tier": "affordable",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Oshawa",
+            "bedrooms": 0,
+            "rent": 1445,
+            "link": "https://rentals.ca/oshawa"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Oshawa",
+            "bedrooms": 1,
+            "rent": 1868,
+            "link": "https://rentals.ca/oshawa"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Oshawa",
+            "bedrooms": 2,
+            "rent": 2356,
+            "link": "https://rentals.ca/oshawa"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 24,
+        "walk_in_clinics": 14,
+        "hospitals": [
+          "Oshawa Memorial Hospital"
+        ],
+        "facilities": [
+          {
+            "name": "Oshawa Memorial Hospital",
+            "type": "hospital",
+            "lat": 43.9062,
+            "lng": -78.84772
+          },
+          {
+            "name": "Oshawa Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.89614,
+            "lng": -78.92795
+          },
+          {
+            "name": "Oshawa Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.92392,
+            "lng": -78.83474
+          },
+          {
+            "name": "Oshawa Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.89737,
+            "lng": -78.8614
+          },
+          {
+            "name": "Oshawa Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.91145,
+            "lng": -78.9201
+          },
+          {
+            "name": "Oshawa Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.91843,
+            "lng": -78.89681
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 67.2,
+        "trend": "down",
+        "nearest_police_station": "Oshawa Police Station",
+        "nearest_fire_station": "Oshawa Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.8626,
+            "lng": -78.8922,
+            "severity": 77.3
+          },
+          {
+            "name": "North End",
+            "lat": 43.8732,
+            "lng": -78.83879,
+            "severity": 88.1
+          },
+          {
+            "name": "East Side",
+            "lat": 43.89661,
+            "lng": -78.87903,
+            "severity": 66.3
+          },
+          {
+            "name": "West End",
+            "lat": 43.91199,
+            "lng": -78.83574,
+            "severity": 72.3
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.90868,
+            "lng": -78.91338,
+            "severity": 51.7
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 1525,
+        "avg_salary": 59169,
+        "labour_demand": "medium",
+        "job_listings": [
+          {
+            "title": "Machine Operator",
+            "employer": "Manufacturing Plant \u2014 Oshawa",
+            "salary": 45000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Administrative Assistant",
+            "employer": "School Board \u2014 Oshawa",
+            "salary": 66500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Customer Service Representative",
+            "employer": "Retail Chain \u2014 Oshawa",
+            "salary": 57500,
+            "type": "Contract"
+          },
+          {
+            "title": "Software Developer",
+            "employer": "Tech Company \u2014 Oshawa",
+            "salary": 64000,
+            "type": "Full-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 47,
+        "cultural_orgs": 18,
+        "ethnic_grocery_stores": 29,
+        "settlement_agencies": [
+          "Newcomer Centre of Peel",
+          "York Region Newcomer Services",
+          "Halton Multicultural Council"
+        ]
+      }
+    },
+    {
+      "id": "newmarket",
+      "name": "Newmarket",
+      "lat": 44.0592,
+      "lng": -79.4613,
+      "distance_from_toronto_km": 45.6,
+      "housing": {
+        "avg_rent": {
+          "studio": 1460,
+          "1br": 1810,
+          "2br": 2360,
+          "3br": 2910
+        },
+        "vacancy_rate": 2.6,
+        "affordability_tier": "affordable",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Newmarket",
+            "bedrooms": 0,
+            "rent": 1464,
+            "link": "https://rentals.ca/newmarket"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Newmarket",
+            "bedrooms": 1,
+            "rent": 1862,
+            "link": "https://rentals.ca/newmarket"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Newmarket",
+            "bedrooms": 2,
+            "rent": 2325,
+            "link": "https://rentals.ca/newmarket"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 27,
+        "walk_in_clinics": 18,
+        "hospitals": [
+          "Newmarket General Hospital"
+        ],
+        "facilities": [
+          {
+            "name": "Newmarket General Hospital",
+            "type": "hospital",
+            "lat": 44.05665,
+            "lng": -79.46467
+          },
+          {
+            "name": "Newmarket Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 44.02483,
+            "lng": -79.41204
+          },
+          {
+            "name": "Newmarket Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 44.03211,
+            "lng": -79.40147
+          },
+          {
+            "name": "Newmarket Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 44.0985,
+            "lng": -79.52167
+          },
+          {
+            "name": "Newmarket Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 44.0555,
+            "lng": -79.42127
+          },
+          {
+            "name": "Newmarket Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 44.10137,
+            "lng": -79.46762
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 69.7,
+        "trend": "down",
+        "nearest_police_station": "Newmarket Police Station",
+        "nearest_fire_station": "Newmarket Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 44.04044,
+            "lng": -79.49398,
+            "severity": 89.3
+          },
+          {
+            "name": "North End",
+            "lat": 44.03574,
+            "lng": -79.45213,
+            "severity": 53.9
+          },
+          {
+            "name": "East Side",
+            "lat": 44.06115,
+            "lng": -79.41032,
+            "severity": 53.5
+          },
+          {
+            "name": "West End",
+            "lat": 44.08516,
+            "lng": -79.46032,
+            "severity": 86.7
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 44.07569,
+            "lng": -79.49155,
+            "severity": 87.2
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 1811,
+        "avg_salary": 59483,
+        "labour_demand": "medium",
+        "job_listings": [
+          {
+            "title": "Truck Driver (AZ/DZ)",
+            "employer": "Logistics & Distribution Centre \u2014 Newmarket",
+            "salary": 45000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Machine Operator",
+            "employer": "Manufacturing Plant \u2014 Newmarket",
+            "salary": 61500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Early Childhood Educator",
+            "employer": "School Board \u2014 Newmarket",
+            "salary": 69000,
+            "type": "Contract"
+          },
+          {
+            "title": "Warehouse Associate",
+            "employer": "Logistics & Distribution Centre \u2014 Newmarket",
+            "salary": 54500,
+            "type": "Part-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 51,
+        "cultural_orgs": 20,
+        "ethnic_grocery_stores": 32,
+        "settlement_agencies": [
+          "Durham Region Unemployed Help Centre",
+          "Newcomer Centre of Peel",
+          "Halton Multicultural Council"
+        ]
+      }
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "lat": 44.0065,
+      "lng": -79.4504,
+      "distance_from_toronto_km": 39.7,
+      "housing": {
+        "avg_rent": {
+          "studio": 1510,
+          "1br": 1860,
+          "2br": 2410,
+          "3br": 2960
+        },
+        "vacancy_rate": 2.3,
+        "affordability_tier": "moderate",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Aurora",
+            "bedrooms": 0,
+            "rent": 1475,
+            "link": "https://rentals.ca/aurora"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Aurora",
+            "bedrooms": 1,
+            "rent": 1890,
+            "link": "https://rentals.ca/aurora"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Aurora",
+            "bedrooms": 2,
+            "rent": 2374,
+            "link": "https://rentals.ca/aurora"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 35,
+        "walk_in_clinics": 18,
+        "hospitals": [
+          "Aurora Health Sciences Centre"
+        ],
+        "facilities": [
+          {
+            "name": "Aurora Health Sciences Centre",
+            "type": "hospital",
+            "lat": 43.99324,
+            "lng": -79.41634
+          },
+          {
+            "name": "Aurora Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.96161,
+            "lng": -79.41903
+          },
+          {
+            "name": "Aurora Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 44.03705,
+            "lng": -79.49794
+          },
+          {
+            "name": "Aurora Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 44.04491,
+            "lng": -79.42375
+          },
+          {
+            "name": "Aurora Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 44.04268,
+            "lng": -79.4767
+          },
+          {
+            "name": "Aurora Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.99499,
+            "lng": -79.4638
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 71.2,
+        "trend": "up",
+        "nearest_police_station": "Aurora Police Station",
+        "nearest_fire_station": "Aurora Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 44.04694,
+            "lng": -79.44036,
+            "severity": 65.1
+          },
+          {
+            "name": "North End",
+            "lat": 44.00067,
+            "lng": -79.47572,
+            "severity": 51.3
+          },
+          {
+            "name": "East Side",
+            "lat": 43.97421,
+            "lng": -79.41271,
+            "severity": 61.8
+          },
+          {
+            "name": "West End",
+            "lat": 44.04182,
+            "lng": -79.47863,
+            "severity": 60.9
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 44.00739,
+            "lng": -79.48533,
+            "severity": 65.6
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 2376,
+        "avg_salary": 60608,
+        "labour_demand": "medium",
+        "job_listings": [
+          {
+            "title": "Retail Sales Associate",
+            "employer": "Retail Chain \u2014 Aurora",
+            "salary": 45500,
+            "type": "Contract"
+          },
+          {
+            "title": "Accountant",
+            "employer": "Financial Services Firm \u2014 Aurora",
+            "salary": 70000,
+            "type": "Contract"
+          },
+          {
+            "title": "Registered Nurse",
+            "employer": "Regional Health Network \u2014 Aurora",
+            "salary": 56000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Warehouse Associate",
+            "employer": "Logistics & Distribution Centre \u2014 Aurora",
+            "salary": 60500,
+            "type": "Contract"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 62,
+        "cultural_orgs": 24,
+        "ethnic_grocery_stores": 40,
+        "settlement_agencies": [
+          "Newcomer Centre of Peel",
+          "COSTI Immigrant Services",
+          "York Region Newcomer Services"
+        ]
+      }
+    },
+    {
+      "id": "caledon",
+      "name": "Caledon",
+      "lat": 43.8619,
+      "lng": -79.8683,
+      "distance_from_toronto_km": 45.3,
+      "housing": {
+        "avg_rent": {
+          "studio": 1410,
+          "1br": 1760,
+          "2br": 2310,
+          "3br": 2860
+        },
+        "vacancy_rate": 2.7,
+        "affordability_tier": "affordable",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Caledon",
+            "bedrooms": 0,
+            "rent": 1463,
+            "link": "https://rentals.ca/caledon"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Caledon",
+            "bedrooms": 1,
+            "rent": 1740,
+            "link": "https://rentals.ca/caledon"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Caledon",
+            "bedrooms": 2,
+            "rent": 2323,
+            "link": "https://rentals.ca/caledon"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 27,
+        "walk_in_clinics": 17,
+        "hospitals": [
+          "Caledon General Hospital"
+        ],
+        "facilities": [
+          {
+            "name": "Caledon General Hospital",
+            "type": "hospital",
+            "lat": 43.86086,
+            "lng": -79.82707
+          },
+          {
+            "name": "Caledon Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.86641,
+            "lng": -79.9095
+          },
+          {
+            "name": "Caledon Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.85423,
+            "lng": -79.89561
+          },
+          {
+            "name": "Caledon Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.83989,
+            "lng": -79.83843
+          },
+          {
+            "name": "Caledon Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.87567,
+            "lng": -79.88004
+          },
+          {
+            "name": "Caledon Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.83836,
+            "lng": -79.8704
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 70.5,
+        "trend": "down",
+        "nearest_police_station": "Caledon Police Station",
+        "nearest_fire_station": "Caledon Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.87559,
+            "lng": -79.91112,
+            "severity": 76.8
+          },
+          {
+            "name": "North End",
+            "lat": 43.82745,
+            "lng": -79.86823,
+            "severity": 84.2
+          },
+          {
+            "name": "East Side",
+            "lat": 43.86599,
+            "lng": -79.87359,
+            "severity": 63.1
+          },
+          {
+            "name": "West End",
+            "lat": 43.88292,
+            "lng": -79.87647,
+            "severity": 72.6
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.84115,
+            "lng": -79.90493,
+            "severity": 73.0
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 2050,
+        "avg_salary": 61527,
+        "labour_demand": "medium",
+        "job_listings": [
+          {
+            "title": "Accountant",
+            "employer": "Financial Services Firm \u2014 Caledon",
+            "salary": 66000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Registered Nurse",
+            "employer": "Regional Health Network \u2014 Caledon",
+            "salary": 47500,
+            "type": "Contract"
+          },
+          {
+            "title": "Early Childhood Educator",
+            "employer": "School Board \u2014 Caledon",
+            "salary": 62500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Electrician",
+            "employer": "Construction Company \u2014 Caledon",
+            "salary": 69500,
+            "type": "Part-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 55,
+        "cultural_orgs": 19,
+        "ethnic_grocery_stores": 39,
+        "settlement_agencies": [
+          "Skills for Change",
+          "Welcome Centre Immigrant Services",
+          "Halton Multicultural Council"
+        ]
+      }
+    },
+    {
+      "id": "halton_hills",
+      "name": "Halton Hills",
+      "lat": 43.6499,
+      "lng": -79.9483,
+      "distance_from_toronto_km": 45.5,
+      "housing": {
+        "avg_rent": {
+          "studio": 1540,
+          "1br": 1890,
+          "2br": 2440,
+          "3br": 2990
+        },
+        "vacancy_rate": 2.7,
+        "affordability_tier": "moderate",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Halton Hills",
+            "bedrooms": 0,
+            "rent": 1566,
+            "link": "https://rentals.ca/halton-hills"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Halton Hills",
+            "bedrooms": 1,
+            "rent": 1957,
+            "link": "https://rentals.ca/halton-hills"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Halton Hills",
+            "bedrooms": 2,
+            "rent": 2470,
+            "link": "https://rentals.ca/halton-hills"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 31,
+        "walk_in_clinics": 14,
+        "hospitals": [
+          "Halton Hills Memorial Hospital"
+        ],
+        "facilities": [
+          {
+            "name": "Halton Hills Memorial Hospital",
+            "type": "hospital",
+            "lat": 43.66807,
+            "lng": -79.94849
+          },
+          {
+            "name": "Halton Hills Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.65659,
+            "lng": -79.9658
+          },
+          {
+            "name": "Halton Hills Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.66672,
+            "lng": -79.94464
+          },
+          {
+            "name": "Halton Hills Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.67605,
+            "lng": -79.90468
+          },
+          {
+            "name": "Halton Hills Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.6132,
+            "lng": -79.89865
+          },
+          {
+            "name": "Halton Hills Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.6395,
+            "lng": -79.93006
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 61.9,
+        "trend": "stable",
+        "nearest_police_station": "Halton Hills Police Station",
+        "nearest_fire_station": "Halton Hills Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.64437,
+            "lng": -79.96947,
+            "severity": 75.7
+          },
+          {
+            "name": "North End",
+            "lat": 43.68785,
+            "lng": -79.99028,
+            "severity": 58.6
+          },
+          {
+            "name": "East Side",
+            "lat": 43.67128,
+            "lng": -79.91404,
+            "severity": 82.5
+          },
+          {
+            "name": "West End",
+            "lat": 43.64907,
+            "lng": -79.99637,
+            "severity": 80.8
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.68462,
+            "lng": -79.94516,
+            "severity": 60.5
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 2097,
+        "avg_salary": 58035,
+        "labour_demand": "medium",
+        "job_listings": [
+          {
+            "title": "Personal Support Worker",
+            "employer": "Regional Health Network \u2014 Halton Hills",
+            "salary": 71500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Customer Service Representative",
+            "employer": "Retail Chain \u2014 Halton Hills",
+            "salary": 74000,
+            "type": "Contract"
+          },
+          {
+            "title": "Early Childhood Educator",
+            "employer": "School Board \u2014 Halton Hills",
+            "salary": 56500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Truck Driver (AZ/DZ)",
+            "employer": "Logistics & Distribution Centre \u2014 Halton Hills",
+            "salary": 56500,
+            "type": "Part-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 57,
+        "cultural_orgs": 22,
+        "ethnic_grocery_stores": 36,
+        "settlement_agencies": [
+          "Working Women Community Centre",
+          "Welcome Centre Immigrant Services",
+          "Durham Region Unemployed Help Centre"
+        ]
+      }
+    },
+    {
+      "id": "king",
+      "name": "King",
+      "lat": 43.9294,
+      "lng": -79.5296,
+      "distance_from_toronto_km": 32.9,
+      "housing": {
+        "avg_rent": {
+          "studio": 1790,
+          "1br": 2140,
+          "2br": 2690,
+          "3br": 3240
+        },
+        "vacancy_rate": 2.3,
+        "affordability_tier": "expensive",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 King",
+            "bedrooms": 0,
+            "rent": 1812,
+            "link": "https://rentals.ca/king"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 King",
+            "bedrooms": 1,
+            "rent": 2130,
+            "link": "https://rentals.ca/king"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 King",
+            "bedrooms": 2,
+            "rent": 2752,
+            "link": "https://rentals.ca/king"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 38,
+        "walk_in_clinics": 22,
+        "hospitals": [
+          "King Regional Health Centre"
+        ],
+        "facilities": [
+          {
+            "name": "King Regional Health Centre",
+            "type": "hospital",
+            "lat": 43.91013,
+            "lng": -79.48757
+          },
+          {
+            "name": "King Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 43.94251,
+            "lng": -79.55415
+          },
+          {
+            "name": "King Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 43.89588,
+            "lng": -79.56066
+          },
+          {
+            "name": "King Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 43.94168,
+            "lng": -79.50475
+          },
+          {
+            "name": "King Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 43.89446,
+            "lng": -79.58336
+          },
+          {
+            "name": "King Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 43.9316,
+            "lng": -79.51923
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 60.9,
+        "trend": "down",
+        "nearest_police_station": "King Police Station",
+        "nearest_fire_station": "King Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 43.92033,
+            "lng": -79.56073,
+            "severity": 65.3
+          },
+          {
+            "name": "North End",
+            "lat": 43.88971,
+            "lng": -79.55195,
+            "severity": 59.2
+          },
+          {
+            "name": "East Side",
+            "lat": 43.96661,
+            "lng": -79.51332,
+            "severity": 77.8
+          },
+          {
+            "name": "West End",
+            "lat": 43.9274,
+            "lng": -79.55947,
+            "severity": 49.8
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 43.96675,
+            "lng": -79.50655,
+            "severity": 52.4
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 2681,
+        "avg_salary": 61698,
+        "labour_demand": "medium",
+        "job_listings": [
+          {
+            "title": "Retail Sales Associate",
+            "employer": "Retail Chain \u2014 King",
+            "salary": 51500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Customer Service Representative",
+            "employer": "Retail Chain \u2014 King",
+            "salary": 81000,
+            "type": "Contract"
+          },
+          {
+            "title": "Software Developer",
+            "employer": "Tech Company \u2014 King",
+            "salary": 49000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Machine Operator",
+            "employer": "Manufacturing Plant \u2014 King",
+            "salary": 46000,
+            "type": "Full-time"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 76,
+        "cultural_orgs": 27,
+        "ethnic_grocery_stores": 48,
+        "settlement_agencies": [
+          "Skills for Change",
+          "Halton Multicultural Council",
+          "Working Women Community Centre"
+        ]
+      }
+    },
+    {
+      "id": "georgina",
+      "name": "Georgina",
+      "lat": 44.2895,
+      "lng": -79.4342,
+      "distance_from_toronto_km": 70.9,
+      "housing": {
+        "avg_rent": {
+          "studio": 1290,
+          "1br": 1640,
+          "2br": 2190,
+          "3br": 2740
+        },
+        "vacancy_rate": 3.5,
+        "affordability_tier": "affordable",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Georgina",
+            "bedrooms": 0,
+            "rent": 1279,
+            "link": "https://rentals.ca/georgina"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Georgina",
+            "bedrooms": 1,
+            "rent": 1659,
+            "link": "https://rentals.ca/georgina"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Georgina",
+            "bedrooms": 2,
+            "rent": 2212,
+            "link": "https://rentals.ca/georgina"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 18,
+        "walk_in_clinics": 9,
+        "hospitals": [
+          "Georgina Memorial Hospital"
+        ],
+        "facilities": [
+          {
+            "name": "Georgina Memorial Hospital",
+            "type": "hospital",
+            "lat": 44.27958,
+            "lng": -79.44457
+          },
+          {
+            "name": "Georgina Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 44.24506,
+            "lng": -79.46021
+          },
+          {
+            "name": "Georgina Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 44.32059,
+            "lng": -79.48833
+          },
+          {
+            "name": "Georgina Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 44.28911,
+            "lng": -79.47169
+          },
+          {
+            "name": "Georgina Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 44.31345,
+            "lng": -79.4725
+          },
+          {
+            "name": "Georgina Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 44.28636,
+            "lng": -79.4636
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 76.7,
+        "trend": "down",
+        "nearest_police_station": "Georgina Police Station",
+        "nearest_fire_station": "Georgina Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 44.32107,
+            "lng": -79.47823,
+            "severity": 82.1
+          },
+          {
+            "name": "North End",
+            "lat": 44.29843,
+            "lng": -79.38955,
+            "severity": 76.0
+          },
+          {
+            "name": "East Side",
+            "lat": 44.32278,
+            "lng": -79.48415,
+            "severity": 80.9
+          },
+          {
+            "name": "West End",
+            "lat": 44.32371,
+            "lng": -79.48438,
+            "severity": 55.7
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 44.29729,
+            "lng": -79.44373,
+            "severity": 85.9
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 254,
+        "avg_salary": 52505,
+        "labour_demand": "low",
+        "job_listings": [
+          {
+            "title": "Registered Nurse",
+            "employer": "Regional Health Network \u2014 Georgina",
+            "salary": 41500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Customer Service Representative",
+            "employer": "Retail Chain \u2014 Georgina",
+            "salary": 60000,
+            "type": "Part-time"
+          },
+          {
+            "title": "Retail Sales Associate",
+            "employer": "Retail Chain \u2014 Georgina",
+            "salary": 46500,
+            "type": "Full-time"
+          },
+          {
+            "title": "Accountant",
+            "employer": "Financial Services Firm \u2014 Georgina",
+            "salary": 61000,
+            "type": "Contract"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 18,
+        "cultural_orgs": 6,
+        "ethnic_grocery_stores": 10,
+        "settlement_agencies": [
+          "Skills for Change",
+          "COSTI Immigrant Services",
+          "Welcome Centre Immigrant Services"
+        ]
+      }
+    },
+    {
+      "id": "uxbridge",
+      "name": "Uxbridge",
+      "lat": 44.109,
+      "lng": -79.122,
+      "distance_from_toronto_km": 54.8,
+      "housing": {
+        "avg_rent": {
+          "studio": 1430,
+          "1br": 1780,
+          "2br": 2330,
+          "3br": 2880
+        },
+        "vacancy_rate": 2.8,
+        "affordability_tier": "affordable",
+        "listings": [
+          {
+            "title": "Cozy studio near transit \u2014 Uxbridge",
+            "bedrooms": 0,
+            "rent": 1391,
+            "link": "https://rentals.ca/uxbridge"
+          },
+          {
+            "title": "1 Bedroom apartment \u2014 Uxbridge",
+            "bedrooms": 1,
+            "rent": 1730,
+            "link": "https://rentals.ca/uxbridge"
+          },
+          {
+            "title": "2 Bedroom townhouse \u2014 Uxbridge",
+            "bedrooms": 2,
+            "rent": 2365,
+            "link": "https://rentals.ca/uxbridge"
+          }
+        ]
+      },
+      "healthcare": {
+        "family_doctors_accepting": 27,
+        "walk_in_clinics": 12,
+        "hospitals": [
+          "Uxbridge Memorial Hospital"
+        ],
+        "facilities": [
+          {
+            "name": "Uxbridge Memorial Hospital",
+            "type": "hospital",
+            "lat": 44.13344,
+            "lng": -79.07345
+          },
+          {
+            "name": "Uxbridge Walk-In Clinic #1",
+            "type": "clinic",
+            "lat": 44.10381,
+            "lng": -79.17093
+          },
+          {
+            "name": "Uxbridge Walk-In Clinic #2",
+            "type": "clinic",
+            "lat": 44.071,
+            "lng": -79.17446
+          },
+          {
+            "name": "Uxbridge Walk-In Clinic #3",
+            "type": "clinic",
+            "lat": 44.10181,
+            "lng": -79.07381
+          },
+          {
+            "name": "Uxbridge Walk-In Clinic #4",
+            "type": "clinic",
+            "lat": 44.11451,
+            "lng": -79.08962
+          },
+          {
+            "name": "Uxbridge Walk-In Clinic #5",
+            "type": "clinic",
+            "lat": 44.0982,
+            "lng": -79.08837
+          }
+        ]
+      },
+      "safety": {
+        "crime_severity_index": 68.6,
+        "trend": "stable",
+        "nearest_police_station": "Uxbridge Police Station",
+        "nearest_fire_station": "Uxbridge Fire Station",
+        "crime_zones": [
+          {
+            "name": "Downtown / Core",
+            "lat": 44.09349,
+            "lng": -79.08777,
+            "severity": 50.5
+          },
+          {
+            "name": "North End",
+            "lat": 44.12564,
+            "lng": -79.15627,
+            "severity": 70.4
+          },
+          {
+            "name": "East Side",
+            "lat": 44.10465,
+            "lng": -79.1419,
+            "severity": 79.0
+          },
+          {
+            "name": "West End",
+            "lat": 44.10694,
+            "lng": -79.10717,
+            "severity": 57.5
+          },
+          {
+            "name": "Waterfront / South",
+            "lat": 44.11917,
+            "lng": -79.13272,
+            "severity": 63.1
+          }
+        ]
+      },
+      "employment": {
+        "job_count": 1317,
+        "avg_salary": 55610,
+        "labour_demand": "low",
+        "job_listings": [
+          {
+            "title": "Warehouse Associate",
+            "employer": "Logistics & Distribution Centre \u2014 Uxbridge",
+            "salary": 66000,
+            "type": "Full-time"
+          },
+          {
+            "title": "Accountant",
+            "employer": "Financial Services Firm \u2014 Uxbridge",
+            "salary": 72500,
+            "type": "Part-time"
+          },
+          {
+            "title": "Retail Sales Associate",
+            "employer": "Retail Chain \u2014 Uxbridge",
+            "salary": 48000,
+            "type": "Contract"
+          },
+          {
+            "title": "Personal Support Worker",
+            "employer": "Regional Health Network \u2014 Uxbridge",
+            "salary": 42500,
+            "type": "Contract"
+          }
+        ]
+      },
+      "community": {
+        "religious_places": 37,
+        "cultural_orgs": 13,
+        "ethnic_grocery_stores": 31,
+        "settlement_agencies": [
+          "Durham Region Unemployed Help Centre",
+          "Halton Multicultural Council",
+          "Working Women Community Centre"
+        ]
+      }
+    }
+  ]
+}

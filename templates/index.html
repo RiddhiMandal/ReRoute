@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReRoute — Find your place in the GTA</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <!-- LOGIN GATE -->
+  <div id="login-gate">
+    <div class="login-card">
+      <h1>ReRoute</h1>
+      <p class="tagline">Helping newcomers find the right GTA city to call home.</p>
+
+      <div id="login-forms">
+        <div id="login-choice">
+          <button class="primary" onclick="showLoginForm('signup')">Sign Up</button>
+          <button class="secondary" onclick="showLoginForm('signin')">Sign In</button>
+          <button class="link" onclick="skipLogin()">Skip for now &rarr;</button>
+        </div>
+
+        <div id="signup-form" class="hidden">
+          <div class="field"><label>Name</label><input id="su-name" placeholder="Your name"></div>
+          <div class="field"><label>Date of Birth</label><input id="su-dob" type="date"></div>
+          <div class="field"><label>Email</label><input id="su-email" type="email" placeholder="you@example.com"></div>
+          <button class="primary" onclick="submitSignup()">Create Account</button>
+          <button class="link" onclick="showLoginForm(null)">&larr; Back</button>
+          <p class="note">Prototype only — this stores your name locally for personalization. No real account or password system is wired up yet.</p>
+        </div>
+
+        <div id="signin-form" class="hidden">
+          <div class="field"><label>Email</label><input id="si-email" type="email" placeholder="you@example.com"></div>
+          <button class="primary" onclick="submitSignin()">Sign In</button>
+          <button class="link" onclick="showLoginForm(null)">&larr; Back</button>
+          <p class="note">Prototype only — no real authentication yet.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- APP SHELL -->
+  <div id="app" class="hidden">
+    <header>
+      <div class="header-left">
+        <h1>ReRoute</h1>
+        <span class="tagline-small">Find your place in the GTA</span>
+      </div>
+      <div class="header-right">
+        <span id="welcome-msg"></span>
+      </div>
+    </header>
+
+    <div class="tabs">
+      <div class="tab active" data-tab="map">🗺️ Map</div>
+      <div class="tab" data-tab="housing">🏠 Housing</div>
+      <div class="tab" data-tab="healthcare">🩺 Healthcare</div>
+      <div class="tab" data-tab="safety">🛡️ Safety</div>
+      <div class="tab" data-tab="employment">💼 Employment</div>
+      <div class="tab" data-tab="community">🤝 Community</div>
+      <div class="tab" data-tab="chatbot">💬 Chatbot</div>
+    </div>
+
+    <!-- MAP TAB -->
+    <div class="panel active" id="map-panel">
+      <div class="map-layout">
+        <div class="filters-sidebar">
+          <h2>Filters</h2>
+          <div class="field">
+            <label>Bedroom type</label>
+            <select id="f-bedroom" onchange="applyFilters()">
+              <option value="studio">Studio</option>
+              <option value="1br" selected>1 Bedroom</option>
+              <option value="2br">2 Bedroom</option>
+              <option value="3br">3 Bedroom</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Max monthly budget: <span id="f-budget-val">$3000</span></label>
+            <input id="f-budget" type="range" min="1000" max="3000" step="50" value="3000" oninput="onBudgetInput()" onchange="applyFilters()">
+          </div>
+          <div class="field">
+            <label>Max distance from Toronto: <span id="f-distance-val">80 km</span></label>
+            <input id="f-distance" type="range" min="0" max="80" step="5" value="80" oninput="onDistanceInput()" onchange="applyFilters()">
+          </div>
+          <button onclick="resetFilters()">Reset Filters</button>
+
+          <div class="legend">
+            <div><span class="dot affordable"></span> Affordable</div>
+            <div><span class="dot moderate"></span> Moderate</div>
+            <div><span class="dot expensive"></span> Expensive</div>
+          </div>
+
+          <p class="note" id="filter-count"></p>
+        </div>
+
+        <div id="leaflet-map"></div>
+
+        <div class="city-panel" id="city-panel">
+          <p class="note">Click a city pin on the map to see a quick snapshot here.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- HOUSING TAB -->
+    <div class="panel" id="housing-panel">
+      <div class="city-select-row">
+        <label>City:</label>
+        <select id="housing-city-select" onchange="renderHousingTab()"></select>
+      </div>
+      <div id="housing-content"></div>
+    </div>
+
+    <!-- HEALTHCARE TAB -->
+    <div class="panel" id="healthcare-panel">
+      <div class="city-select-row">
+        <label>City:</label>
+        <select id="healthcare-city-select" onchange="renderHealthcareTab()"></select>
+      </div>
+      <div id="healthcare-content"></div>
+    </div>
+
+    <!-- SAFETY TAB -->
+    <div class="panel" id="safety-panel">
+      <div class="city-select-row">
+        <label>City:</label>
+        <select id="safety-city-select" onchange="renderSafetyTab()"></select>
+      </div>
+      <div id="safety-content"></div>
+    </div>
+
+    <!-- EMPLOYMENT TAB -->
+    <div class="panel" id="employment-panel">
+      <div class="city-select-row">
+        <label>City:</label>
+        <select id="employment-city-select" onchange="renderEmploymentTab()"></select>
+      </div>
+      <div id="employment-content"></div>
+    </div>
+
+    <!-- COMMUNITY TAB -->
+    <div class="panel" id="community-panel">
+      <div class="city-select-row">
+        <label>City:</label>
+        <select id="community-city-select" onchange="renderCommunityTab()"></select>
+      </div>
+      <div id="community-content"></div>
+    </div>
+
+    <!-- CHATBOT TAB -->
+    <div class="panel" id="chatbot-panel">
+      <div class="chatbot-box">
+        <div id="chat-messages"></div>
+        <div id="chat-options"></div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-links">
+        <a href="#" onclick="return false;">About Us</a>
+        <a href="#" onclick="return false;">Privacy Policy</a>
+        <a href="#" onclick="return false;">Report an Issue</a>
+        <a href="#" onclick="return false;">Rate the App</a>
+        <a href="#" onclick="return false;">Contact Support</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
