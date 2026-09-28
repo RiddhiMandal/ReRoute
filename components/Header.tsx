@@ -25,7 +25,6 @@ export default function Header({
       <div className="flex min-w-0 items-center gap-2">
         <Image src="/logo.svg" alt="" width={32} height={32} />
         <span className="hidden text-lg font-semibold text-reroute-green sm:inline">Reroute</span>
-        <span className="hidden truncate text-sm text-slate-400 lg:inline">— {t("header.tagline")}</span>
       </div>
       <div className="flex items-center gap-2 sm:gap-3">
         <CitySelector activeCityId={activeCityId} onChange={onCityChange} />
