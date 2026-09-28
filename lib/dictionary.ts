@@ -174,9 +174,8 @@ export const EN: Record<string, string> = {
   "housing.searchSubtitle": "{n} sites — filter by feature or search by name",
   "housing.searchPlaceholder": "Search by site name or feature (e.g. condos, verified, map)",
   "housing.searchCity": "Search {city}",
-  "housing.mapLabel": "Map of average rents by city",
-  "housing.mapHint":
-    "Each pin shows the average asking rent for a {n}-bedroom — green is cheapest, red is priciest. Click a pin to switch city.",
+  "housing.mapLabel": "Map showing average rent in {city}",
+  "housing.mapHint": "Average asking rent for a {n}-bedroom in {city}.",
   "housing.insTitle": "Tenant insurance providers (Canada)",
   "housing.insSubtitle": "{n} providers — filter by coverage or search by name",
   "housing.insPlaceholder": "Search by provider name or coverage (e.g. liability, online quote)",
@@ -548,9 +547,8 @@ export const FR: Record<string, string> = {
   "housing.searchSubtitle": "{n} sites — filtrez par caractéristique ou cherchez par nom",
   "housing.searchPlaceholder": "Chercher par nom de site ou caractéristique (ex. condos, vérifié, carte)",
   "housing.searchCity": "Chercher à {city}",
-  "housing.mapLabel": "Carte des loyers moyens par ville",
-  "housing.mapHint":
-    "Chaque épingle indique le loyer moyen demandé pour un logement à {n} chambre(s) — vert : le moins cher; rouge : le plus cher. Cliquez sur une épingle pour changer de ville.",
+  "housing.mapLabel": "Carte du loyer moyen à {city}",
+  "housing.mapHint": "Loyer moyen demandé pour un logement à {n} chambre(s) à {city}.",
   "housing.insTitle": "Assureurs pour locataires (Canada)",
   "housing.insSubtitle": "{n} assureurs — filtrez par garantie ou cherchez par nom",
   "housing.insPlaceholder": "Chercher par assureur ou garantie (ex. responsabilité civile, soumission en ligne)",

@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { ExternalLink, Search } from "lucide-react";
-import { CITIES, type CityData } from "@/lib/cities";
+import type { CityData } from "@/lib/cities";
 import { cityCenter } from "@/lib/geo";
 import { useI18n } from "@/lib/i18n";
 import { trackOutboundClick } from "@/lib/analytics";
@@ -28,13 +28,7 @@ function rentFor(city: CityData, bedrooms: Bedrooms): number {
       : city.housing.avg_rent_3br;
 }
 
-export default function Housing({
-  data,
-  onSelectCity,
-}: {
-  data: CityData;
-  onSelectCity: (cityId: string) => void;
-}) {
+export default function Housing({ data }: { data: CityData }) {
   const { t, tr, money, num } = useI18n();
   const { housing } = data;
   const [bedrooms, setBedrooms] = useState<Bedrooms>(1);
@@ -44,18 +38,22 @@ export default function Housing({
     [data.id]
   );
 
+  // Only the selected city — showing every city at once was confusing once you'd already picked one.
   const markers: MapMarker[] = useMemo(() => {
-    const priced = CITIES.map((c) => ({ c, rent: rentFor(c, bedrooms) })).sort((a, b) => a.rent - b.rent);
-    const lowest = priced[0]?.rent;
-    const highest = priced[priced.length - 1]?.rent;
-    return priced.flatMap(({ c, rent }) => {
-      const center = cityCenter(c.id);
-      if (!center) return [];
-      const tone: MapMarker["tone"] =
-        rent === lowest ? "green" : rent === highest && lowest !== highest ? "red" : "amber";
-      return [{ id: c.id, lat: center[0], lng: center[1], label: money(rent), title: `${c.city} — ${money(rent)}`, tone }];
-    });
-  }, [bedrooms, money]);
+    const center = cityCenter(data.id);
+    if (!center) return [];
+    const rent = rentFor(data, bedrooms);
+    return [
+      {
+        id: data.id,
+        lat: center[0],
+        lng: center[1],
+        label: money(rent),
+        title: `${data.city} — ${money(rent)}`,
+        tone: "green",
+      },
+    ];
+  }, [data, bedrooms, money]);
 
   return (
     <div className="space-y-8">
@@ -108,11 +106,10 @@ export default function Housing({
           <MapView
             markers={markers}
             selectedId={data.id}
-            onSelect={onSelectCity}
-            ariaLabel={t("housing.mapLabel")}
+            ariaLabel={t("housing.mapLabel", { city: data.city })}
             className="h-64 sm:h-80 lg:h-[34rem]"
           />
-          <p className="text-xs text-slate-400">{t("housing.mapHint", { n: bedrooms })}</p>
+          <p className="text-xs text-slate-400">{t("housing.mapHint", { n: bedrooms, city: data.city })}</p>
         </div>
       </div>
 

@@ -128,7 +128,7 @@ the comparison table (top 4), the header filter, the maps and the chatbot all pi
 
 ## Stack
 
-Next.js 14 (App Router) + TypeScript, Tailwind CSS, Leaflet + OpenStreetMap, lucide-react, Supabase (optional).
+Next.js 14 (App Router) + TypeScript, Tailwind CSS, react-leaflet + OpenStreetMap, lucide-react, Supabase (optional).
 
 ## Folder structure
 
