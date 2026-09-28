@@ -3,45 +3,92 @@
   "city": "Brampton",
   "distance_from_toronto": "40 minutes",
   "housing": {
-    "avg_rent_1br": 2000,
-    "avg_rent_2br": 2500,
-    "avg_rent_3br": 2950,
-    "vacancy_rate": "1.9%",
-    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
-    "last_updated": "TODO",
-    "listings_url": "https://rentals.ca/brampton",
-    "affiliate_url": "https://www.lowestrates.ca/tenant-insurance"
+    "avg_rent_1br": 2001,
+    "avg_rent_2br": 2379,
+    "avg_rent_3br": 2674,
+    "listings_count": 835,
+    "listings_as_of": "2026-09-24",
+    "vacancy_rate": null,
+    "source": "Rentals.ca average asking rent (July 2026)",
+    "last_updated": "2026-07-01"
   },
   "healthcare": {
-    "clinics_accepting": 9,
     "nearest_hospital": "William Osler Health System - Brampton Civic",
-    "ohip_wait_days": 90,
-    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
-    "last_updated": "TODO",
+    "source": "Clinic websites (Sept 2026)",
+    "last_updated": "2026-09-17",
     "ohip_guide_url": "https://www.ontario.ca/page/apply-ohip-and-get-health-card",
-    "maps_embed_url": "https://www.google.com/maps/embed/v1/search?key=YOUR_GOOGLE_MAPS_EMBED_API_KEY&q=clinics+near+Brampton"
+    "clinics": [
+      {
+        "name": "Appletree Medical Clinic",
+        "address": "10 Earlsbridge Blvd, Unit 6, Brampton, ON L7A 3P1",
+        "accepting_new_patients": true,
+        "patient_types": ["Walk-in & appointment", "Family practice"],
+        "conditions_treated": ["Immunizations (HPV, Shingles, Flu)", "TB testing", "Travel health consultations", "On-site lab testing"],
+        "phone": "(905) 840-4776"
+      },
+      {
+        "name": "Brampton East Medical Centre",
+        "address": "Gore Centre Plaza, 4525 Ebenezer Road, Unit #1, Brampton, ON L6P 2K8",
+        "accepting_new_patients": true,
+        "patient_types": ["Walk-ins welcome (open 7 days)", "Family practice", "New patients (limited time)"],
+        "conditions_treated": ["Women's health", "Mental health", "Pediatric care", "Geriatric care"],
+        "phone": "905-794-2003"
+      },
+      {
+        "name": "Williams Parkway Medical Clinic",
+        "address": "305 Royal West Dr, Unit K, Brampton, ON L6X 5K8",
+        "accepting_new_patients": true,
+        "patient_types": ["Walk-ins welcome", "OHIP-covered care"],
+        "conditions_treated": ["Minor illness treatment", "Minor injury care", "Children's health services", "Immunizations & vaccines"],
+        "phone": "(905) 452-0200"
+      }
+    ]
   },
   "safety": {
     "csi_rating": "Low",
-    "csi_score": 55,
+    "csi_score": 52,
     "trend": "Improving",
-    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
-    "last_updated": "TODO",
-    "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/240725/dq240725a-eng.htm"
+    "source": "Statistics Canada 2024 — Peel Regional Police service area (covers Mississauga and Brampton)",
+    "last_updated": "2025-07-22",
+    "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250722/dq250722a-eng.htm",
+    "police_service": "Peel Regional Police",
+    "police_non_emergency": "905-453-3311"
   },
   "employment": {
     "top_roles": ["Warehouse Associate", "Truck Driver", "Registered Nurse"],
-    "unemployment_rate": "6.8%",
-    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
-    "last_updated": "TODO",
+    "unemployment_rate": "6.9%",
+    "source": "Statistics Canada Labour Force Survey, Toronto CMA, June 2026 (covers Toronto, Mississauga and Brampton); top roles are indicative",
+    "last_updated": "2026-07-10",
     "job_bank_url": "https://www.jobbank.gc.ca/jobsearch?locationstring=Brampton"
   },
   "community": {
     "languages": ["Punjabi", "Hindi", "Urdu", "Gujarati", "Portuguese"],
     "settlement_url": "https://ircc.canada.ca/english/newcomers/services/index.asp",
-    "maps_embed_url": "https://www.google.com/maps/embed/v1/search?key=YOUR_GOOGLE_MAPS_EMBED_API_KEY&q=settlement+agencies+near+Brampton",
-    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
-    "last_updated": "TODO"
+    "source": "Agency websites and 211 Ontario (Sept 2026)",
+    "last_updated": "2026-09-21",
+    "agencies": [
+      {
+        "name": "Achēv — Brampton Newcomer Information Centre",
+        "address": "24 Queen Street East, Suite 400, Brampton, ON L6V 1A2",
+        "phone": "(905) 595-0722 ext. 4000",
+        "languages": ["Multilingual staff"],
+        "services": ["Free information & referral", "Employment & education", "Language training", "Housing & health care", "Legal services", "Citizenship & immigration"]
+      },
+      {
+        "name": "Indus Community Services — Brampton Gillingham Office",
+        "address": "60 Gillingham Dr, Unit 500, Brampton, ON L6X 0Z9",
+        "phone": "905-275-2369",
+        "languages": ["English", "French (interpretation on request)"],
+        "services": ["Needs assessment & referrals", "Housing, childcare & school registration help", "English classes (LINC) with childcare", "Employment workshops & job fairs", "Community befriending", "International student counselling", "2SLGBTQ+ newcomer support"]
+      },
+      {
+        "name": "Brampton Multicultural Community Centre",
+        "address": "150 Central Park Dr, Brampton, ON L6T 2T9",
+        "languages": [],
+        "services": ["Settlement services for newcomers", "Learning & community programs"],
+        "note": "Non-profit serving newcomers since 1987 (also operating as Building Multicultural Communities)."
+      }
+    ]
   },
-  "disclaimer": "Data sourced from CMHC, Statistics Canada and HealthForceOntario. Always verify directly before making decisions."
+  "disclaimer": "Data compiled from Rentals.ca, CMHC, Statistics Canada, clinic and agency websites. Always verify directly before making decisions."
 }

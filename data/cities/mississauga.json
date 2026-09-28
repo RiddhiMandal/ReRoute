@@ -3,45 +3,101 @@
   "city": "Mississauga",
   "distance_from_toronto": "30 minutes",
   "housing": {
-    "avg_rent_1br": 2100,
-    "avg_rent_2br": 2600,
-    "avg_rent_3br": 3100,
+    "avg_rent_1br": 2052,
+    "avg_rent_2br": 2445,
+    "avg_rent_3br": 3022,
+    "listings_count": 1585,
+    "listings_as_of": "2026-09-24",
     "vacancy_rate": "1.8%",
-    "source": "CMHC Rental Market Report 2025",
-    "last_updated": "2025-01-01",
-    "listings_url": "https://rentals.ca/mississauga",
-    "affiliate_url": "https://www.lowestrates.ca/tenant-insurance"
+    "source": "Rentals.ca average asking rent (July 2026); CMHC 2025 Rental Market Report (vacancy)",
+    "last_updated": "2026-07-01"
   },
   "healthcare": {
-    "clinics_accepting": 12,
     "nearest_hospital": "Trillium Health Partners",
-    "ohip_wait_days": 90,
-    "source": "HealthForceOntario 2025",
-    "last_updated": "2025-01-01",
+    "source": "Clinic websites (Sept 2026)",
+    "last_updated": "2026-09-17",
     "ohip_guide_url": "https://www.ontario.ca/page/apply-ohip-and-get-health-card",
-    "maps_embed_url": "https://www.google.com/maps/embed/v1/search?key=YOUR_GOOGLE_MAPS_EMBED_API_KEY&q=clinics+near+Mississauga"
+    "clinics": [
+      {
+        "name": "Appletree Medical Centre",
+        "address": "170 Queensway W, Suite 112, Mississauga, ON L5B 3A8",
+        "accepting_new_patients": true,
+        "patient_types": ["Walk-ins welcome", "Family practice", "Telephone consultations"],
+        "conditions_treated": ["General checkups", "Psychiatry (mental health)", "Diabetes management", "Pap testing (women's health)", "Well-baby clinic (pediatric)"],
+        "phone": "(647) 722-2370"
+      },
+      {
+        "name": "Your Family Medical Clinic",
+        "address": "1911 Dundas St E, Unit 14, Mississauga, ON L4X 1M1",
+        "accepting_new_patients": true,
+        "patient_types": ["Walk-ins welcome", "Family practice", "Multilingual support"],
+        "conditions_treated": ["Preventive care & vaccinations", "Women's health", "Pediatrics", "Mental health support", "Diabetes care"],
+        "phone": "(289) 652-0999"
+      },
+      {
+        "name": "BritCare Medical Clinic",
+        "address": "6405 Erin Mills Parkway, Unit A-01, Mississauga, ON L5N 4H4",
+        "accepting_new_patients": true,
+        "patient_types": ["Walk-ins welcome (registered anytime; non-registered 5–8pm)", "Family practice"],
+        "conditions_treated": ["Women's health (Pap tests, contraceptive care)", "STI screening", "Vaccines & immunizations", "Allergy shots"],
+        "phone": "(289) 721-2509"
+      }
+    ]
   },
   "safety": {
     "csi_rating": "Low",
     "csi_score": 52,
     "trend": "Improving",
-    "source": "Statistics Canada 2024",
-    "last_updated": "2024-07-01",
-    "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/240725/dq240725a-eng.htm"
+    "source": "Statistics Canada 2024 — Peel Regional Police service area (covers Mississauga and Brampton)",
+    "last_updated": "2025-07-22",
+    "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250722/dq250722a-eng.htm",
+    "police_service": "Peel Regional Police",
+    "police_non_emergency": "905-453-3311"
   },
   "employment": {
     "top_roles": ["Software Developer", "Registered Nurse", "Warehouse Associate"],
-    "unemployment_rate": "6.2%",
-    "source": "Statistics Canada 2025",
-    "last_updated": "2025-01-01",
+    "unemployment_rate": "6.9%",
+    "source": "Statistics Canada Labour Force Survey, Toronto CMA, June 2026 (covers Toronto, Mississauga and Brampton); top roles are indicative",
+    "last_updated": "2026-07-10",
     "job_bank_url": "https://www.jobbank.gc.ca/jobsearch?locationstring=Mississauga"
   },
   "community": {
     "languages": ["Punjabi", "Urdu", "Tamil", "Mandarin", "Arabic"],
     "settlement_url": "https://ircc.canada.ca/english/newcomers/services/index.asp",
-    "maps_embed_url": "https://www.google.com/maps/embed/v1/search?key=YOUR_GOOGLE_MAPS_EMBED_API_KEY&q=settlement+agencies+near+Mississauga",
-    "source": "IRCC 2025",
-    "last_updated": "2025-01-01"
+    "source": "Agency websites and 211 Ontario (Sept 2026)",
+    "last_updated": "2026-09-21",
+    "agencies": [
+      {
+        "name": "Newcomer Centre of Peel",
+        "address": "165 Dundas Street West, Suite 116, Mississauga, ON",
+        "phone": "905-306-0577",
+        "languages": ["Arabic", "Cantonese", "Dari", "English", "Farsi", "French", "Hindi", "Korean", "Mandarin", "Portuguese", "Punjabi", "Russian", "Spanish", "Tagalog", "Tamil", "Urdu", "Vietnamese"],
+        "services": ["Settlement workshops", "Housing, health care & job-search information", "Parent & youth programs"],
+        "note": "Serves new immigrants, permanent residents, refugees and citizens. Book online at ncpeel.ca."
+      },
+      {
+        "name": "Achēv — Newcomer Information Centre (Mississauga)",
+        "address": "50 Burnhamthorpe Road West, Suite 300, Mississauga, ON L5B 3C2",
+        "phone": "905-949-0049",
+        "languages": ["Multilingual staff"],
+        "services": ["Free information & referral", "Employment & licensing", "Credential evaluation", "Language training", "Housing & health services", "Citizenship & immigration"]
+      },
+      {
+        "name": "Achēv — Newcomer Information Centre (Malton)",
+        "address": "7420 Airport Road, Suite 104, Mississauga, ON L4T 4E5",
+        "phone": "905-677-0007",
+        "languages": ["Multilingual staff"],
+        "services": ["Free information & referral", "Employment & licensing", "Credential evaluation", "Language training", "Housing & health services", "Citizenship & immigration"]
+      },
+      {
+        "name": "Punjabi Community Health Services",
+        "address": "2980 Drew Road South, Mississauga, ON L4T 0A7",
+        "phone": "905-677-0889",
+        "languages": ["English", "Arabic", "Hindi", "Punjabi", "Tagalog", "Urdu"],
+        "services": ["Employment preparedness", "Community connections", "Short-term counselling", "Care for newcomer children"],
+        "note": "Serves Peel Region and Toronto."
+      }
+    ]
   },
-  "disclaimer": "Data sourced from CMHC, Statistics Canada and HealthForceOntario. Always verify directly before making decisions."
+  "disclaimer": "Data compiled from Rentals.ca, CMHC, Statistics Canada, clinic and agency websites. Always verify directly before making decisions."
 }

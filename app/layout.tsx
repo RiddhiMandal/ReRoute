@@ -1,17 +1,24 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
+import Providers from "@/components/Providers";
 
-// TODO(day1): replace with the real GA4 Measurement ID (format G-XXXXXXXXXX)
-const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
-
-// TODO(day4): replace with the real Botpress bot ID from the Botpress Cloud dashboard
-const BOTPRESS_BOT_ID = "YOUR_BOTPRESS_BOT_ID";
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
 export const metadata: Metadata = {
   title: "Reroute — Find your city in Ontario",
   description:
-    "Housing, healthcare, safety, employment and community data for newcomers relocating to Ontario cities.",
+    "Rent, healthcare, safety, jobs and free settlement help for people moving to the Greater Toronto Area — with a personal city match, maps and a 30-day plan, in English and French.",
+  openGraph: {
+    title: "Reroute — Find your city in Ontario",
+    description:
+      "Compare GTA cities on rent, safety, jobs, healthcare and settlement help, then get a personal city match. English and French.",
+    type: "website",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#1F5136",
 };
 
 export default function RootLayout({
@@ -22,37 +29,24 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-reroute-cream text-slate-900 antialiased">
-        {children}
+        <Providers>{children}</Providers>
 
-        {/* Google Analytics 4 */}
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-          strategy="afterInteractive"
-        />
-        <Script id="ga4-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_MEASUREMENT_ID}');
-          `}
-        </Script>
-
-        {/* Botpress Cloud webchat */}
-        <Script
-          src="https://cdn.botpress.cloud/webchat/v2/inject.js"
-          strategy="afterInteractive"
-        />
-        <Script id="botpress-init" strategy="afterInteractive">
-          {`
-            window.botpressWebChat && window.botpressWebChat.init({
-              botId: '${BOTPRESS_BOT_ID}',
-              hostUrl: 'https://cdn.botpress.cloud/webchat',
-              messagingUrl: 'https://messaging.botpress.cloud',
-              clientId: '${BOTPRESS_BOT_ID}'
-            });
-          `}
-        </Script>
+        {GA_MEASUREMENT_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="ga4-init" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}');
+              `}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   );

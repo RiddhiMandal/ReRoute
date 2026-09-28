@@ -3,45 +3,95 @@
   "city": "Toronto",
   "distance_from_toronto": "0 minutes",
   "housing": {
-    "avg_rent_1br": 2400,
-    "avg_rent_2br": 3000,
-    "avg_rent_3br": 3600,
-    "vacancy_rate": "1.5%",
-    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
-    "last_updated": "TODO",
-    "listings_url": "https://rentals.ca/toronto",
-    "affiliate_url": "https://www.lowestrates.ca/tenant-insurance"
+    "avg_rent_1br": 2234,
+    "avg_rent_2br": 2947,
+    "avg_rent_3br": 3649,
+    "listings_count": 11397,
+    "listings_as_of": "2026-09-24",
+    "vacancy_rate": "3.0%",
+    "source": "Rentals.ca average asking rent (July 2026); CMHC 2025 Rental Market Report (Toronto CMA vacancy)",
+    "last_updated": "2026-07-01"
   },
   "healthcare": {
-    "clinics_accepting": 8,
     "nearest_hospital": "Toronto General Hospital",
-    "ohip_wait_days": 90,
-    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
-    "last_updated": "TODO",
+    "source": "Clinic and community health centre websites; OCASI / Access Alliance uninsured-care guide",
+    "last_updated": "2026-09-17",
     "ohip_guide_url": "https://www.ontario.ca/page/apply-ohip-and-get-health-card",
-    "maps_embed_url": "https://www.google.com/maps/embed/v1/search?key=YOUR_GOOGLE_MAPS_EMBED_API_KEY&q=clinics+near+Toronto"
+    "clinics": [
+      {
+        "name": "West End Non-Insured Walk-In Clinic (NIWIC)",
+        "address": "AccessPoint on Jane, 761 Jane St, 2nd Floor, Toronto, ON M6N 4C4",
+        "accepting_new_patients": true,
+        "patient_types": ["Walk-ins welcome (Mon & Thu, 4–7:30pm)", "No OHIP required", "No immigration status required"],
+        "conditions_treated": ["General/episodic care", "Specialist referrals"],
+        "phone": "416-324-8677"
+      },
+      {
+        "name": "Access Alliance — Non-Insured Clinic (College St)",
+        "address": "340 College Street, Suite 500, Toronto, ON M5T 3A9",
+        "accepting_new_patients": true,
+        "patient_types": ["By appointment (same/next-day)", "No OHIP required", "No immigration status required"],
+        "conditions_treated": ["Primary care", "Mental health counselling", "Dietitian services"],
+        "phone": "416-324-9380"
+      },
+      {
+        "name": "Access Alliance — AccessPoint on Danforth",
+        "address": "3079 Danforth Avenue, Toronto, ON M1L 1A8",
+        "accepting_new_patients": true,
+        "patient_types": ["Newcomers & refugees", "No OHIP required"],
+        "conditions_treated": ["Primary care", "Mental health counselling", "Settlement support"],
+        "phone": "416-324-8677"
+      }
+    ]
   },
   "safety": {
     "csi_rating": "Moderate",
-    "csi_score": 61,
+    "csi_score": 59,
     "trend": "Stable",
-    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
-    "last_updated": "TODO",
-    "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/240725/dq240725a-eng.htm"
+    "source": "Statistics Canada, Toronto CMA Crime Severity Index 2024 (59.4)",
+    "last_updated": "2025-07-22",
+    "source_url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250722/dq250722a-eng.htm",
+    "police_service": "Toronto Police Service",
+    "police_non_emergency": "416-808-2222 (or *877 from a mobile)"
   },
   "employment": {
     "top_roles": ["Software Developer", "Financial Analyst", "Retail Associate"],
-    "unemployment_rate": "7.1%",
-    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
-    "last_updated": "TODO",
+    "unemployment_rate": "6.9%",
+    "source": "Statistics Canada Labour Force Survey, Toronto CMA, June 2026 (covers Toronto, Mississauga and Brampton); top roles are indicative",
+    "last_updated": "2026-07-10",
     "job_bank_url": "https://www.jobbank.gc.ca/jobsearch?locationstring=Toronto"
   },
   "community": {
     "languages": ["Cantonese", "Mandarin", "Punjabi", "Tamil", "Urdu"],
     "settlement_url": "https://ircc.canada.ca/english/newcomers/services/index.asp",
-    "maps_embed_url": "https://www.google.com/maps/embed/v1/search?key=YOUR_GOOGLE_MAPS_EMBED_API_KEY&q=settlement+agencies+near+Toronto",
-    "source": "NEEDS RESEARCH — placeholder, see CONTRIBUTING.md task list",
-    "last_updated": "TODO"
+    "source": "Agency websites and 211 Ontario (Sept 2026)",
+    "last_updated": "2026-09-21",
+    "agencies": [
+      {
+        "name": "Access Alliance Multicultural Health & Community Services",
+        "address": "340 College Street, Suite 500, Toronto, ON M5T 3A9",
+        "phone": "416-324-8677",
+        "languages": ["Interpretation available"],
+        "services": ["Settlement services", "Primary health care", "Mental health counselling", "Dietitian services"],
+        "note": "Serves newcomers, refugees and people without OHIP or immigration status."
+      },
+      {
+        "name": "COSTI Immigrant Services",
+        "address": "1710 Dufferin St, Toronto, ON M6E 3P2",
+        "phone": "416-658-1600",
+        "languages": ["English", "French", "Italian", "Portuguese", "Spanish"],
+        "services": ["Orientation", "Settlement services", "Counselling", "Employment assistance", "Education & skills training", "Translation & interpretation"],
+        "note": "Head office is administrative — call to find the nearest of COSTI's 17 locations (services in 60+ languages)."
+      },
+      {
+        "name": "Mennonite New Life Centre of Toronto",
+        "address": "Three offices across Toronto — see mnlct.org",
+        "phone": "1-844-879-1678",
+        "languages": ["English", "Spanish", "French", "Mandarin", "Taiwanese", "Arabic"],
+        "services": ["Free English classes (LINC)", "Mental health counselling", "Employment assistance (HOPES)", "Immigration guidance"],
+        "note": "Serving immigrants and refugees since 1983."
+      }
+    ]
   },
-  "disclaimer": "Data sourced from CMHC, Statistics Canada and HealthForceOntario. Always verify directly before making decisions."
+  "disclaimer": "Data compiled from Rentals.ca, CMHC, Statistics Canada, clinic and agency websites. Always verify directly before making decisions."
 }
