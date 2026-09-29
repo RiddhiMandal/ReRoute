@@ -73,7 +73,7 @@ export default function Healthcare({ data }: { data: CityData }) {
 
   return (
     <div className="space-y-6">
-      <h2 className="text-xl font-semibold text-reroute-green">{t("nav.healthcare")}</h2>
+      <h2 className="text-xl font-semibold text-reroute-teal">{t("nav.healthcare")}</h2>
 
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-start">
         <div className="order-2 space-y-5 lg:order-1">
@@ -125,7 +125,7 @@ export default function Healthcare({ data }: { data: CityData }) {
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={t("health.searchPlaceholder")}
                 aria-label={t("health.searchPlaceholder")}
-                className="w-full rounded-lg border border-slate-300 py-2 pl-9 pr-3 text-sm shadow-sm focus:border-reroute-green focus:outline-none focus:ring-1 focus:ring-reroute-green"
+                className="w-full rounded-lg border border-slate-300 py-2 pl-9 pr-3 text-sm shadow-sm focus:border-reroute-teal focus:outline-none focus:ring-1 focus:ring-reroute-teal"
               />
             </div>
 
@@ -139,7 +139,7 @@ export default function Healthcare({ data }: { data: CityData }) {
                       onClick={() => setActiveTag(isActive ? null : tag)}
                       aria-pressed={isActive}
                       className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${
-                        isActive ? "bg-reroute-green text-white" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+                        isActive ? "bg-reroute-teal text-white" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
                       }`}
                     >
                       {tr(tag)}
@@ -163,7 +163,7 @@ export default function Healthcare({ data }: { data: CityData }) {
                       key={clinic.name}
                       id={`clinic-${encodeURIComponent(clinic.name)}`}
                       className={`flex flex-col rounded-xl border bg-white p-4 shadow-sm transition-shadow hover:shadow-md ${
-                        isSelected ? "border-reroute-green ring-2 ring-reroute-green/30" : "border-black/5"
+                        isSelected ? "border-reroute-teal ring-2 ring-reroute-teal/30" : "border-black/5"
                       }`}
                     >
                       <div className="flex items-start justify-between gap-3">
@@ -210,7 +210,7 @@ export default function Healthcare({ data }: { data: CityData }) {
                         {hasPin && (
                           <button
                             onClick={() => setSelected(clinic.name)}
-                            className="inline-flex items-center gap-1.5 rounded-md bg-reroute-green px-3 py-1.5 text-sm font-medium text-white transition-colors hover:bg-reroute-green-light"
+                            className="inline-flex items-center gap-1.5 rounded-md bg-reroute-orange px-3 py-1.5 text-sm font-medium text-white transition-colors hover:bg-reroute-orange-light"
                           >
                             <MapPin size={14} />
                             {t("health.showOnMap")}
@@ -223,7 +223,7 @@ export default function Healthcare({ data }: { data: CityData }) {
                           target="_blank"
                           rel="noopener noreferrer"
                           onClick={() => trackOutboundClick("healthcare", clinic.name)}
-                          className="inline-flex items-center gap-1.5 rounded-md bg-reroute-green/10 px-3 py-1.5 text-sm font-medium text-reroute-green transition-colors hover:bg-reroute-green hover:text-white"
+                          className="inline-flex items-center gap-1.5 rounded-md bg-reroute-teal/10 px-3 py-1.5 text-sm font-medium text-reroute-teal transition-colors hover:bg-reroute-teal hover:text-white"
                         >
                           {t("common.viewGoogleMaps")}
                         </a>

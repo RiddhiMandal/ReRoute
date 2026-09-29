@@ -57,7 +57,7 @@ export default function Housing({ data }: { data: CityData }) {
 
   return (
     <div className="space-y-8">
-      <h2 className="text-xl font-semibold text-reroute-green">{t("nav.housing")}</h2>
+      <h2 className="text-xl font-semibold text-reroute-teal">{t("nav.housing")}</h2>
 
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-start">
         <div className="order-2 space-y-5 lg:order-1">
@@ -72,7 +72,7 @@ export default function Housing({ data }: { data: CityData }) {
                 aria-pressed={bedrooms === n}
                 onClick={() => setBedrooms(n)}
                 className={`px-4 py-2 transition-colors ${
-                  bedrooms === n ? "bg-reroute-green text-white" : "bg-white text-slate-600 hover:bg-slate-50"
+                  bedrooms === n ? "bg-reroute-teal text-white" : "bg-white text-slate-600 hover:bg-slate-50"
                 }`}
               >
                 {t("housing.br", { n })}
@@ -181,7 +181,7 @@ function SiteDirectory({
           onChange={(e) => setQuery(e.target.value)}
           placeholder={searchPlaceholder}
           aria-label={searchPlaceholder}
-          className="w-full rounded-lg border border-slate-300 py-2 pl-9 pr-3 text-sm shadow-sm focus:border-reroute-green focus:outline-none focus:ring-1 focus:ring-reroute-green"
+          className="w-full rounded-lg border border-slate-300 py-2 pl-9 pr-3 text-sm shadow-sm focus:border-reroute-teal focus:outline-none focus:ring-1 focus:ring-reroute-teal"
         />
       </div>
 
@@ -194,7 +194,7 @@ function SiteDirectory({
               onClick={() => setActiveTag(isActive ? null : tag)}
               aria-pressed={isActive}
               className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${
-                isActive ? "bg-reroute-green text-white" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+                isActive ? "bg-reroute-teal text-white" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
               }`}
             >
               {tr(tag)}
@@ -230,7 +230,7 @@ function SiteDirectory({
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => trackOutboundClick(trackingCategory, item.name)}
-                className="mt-4 inline-flex items-center gap-1.5 self-start rounded-md bg-reroute-green/10 px-3 py-1.5 text-sm font-medium text-reroute-green transition-colors hover:bg-reroute-green hover:text-white"
+                className="mt-4 inline-flex items-center gap-1.5 self-start rounded-md bg-reroute-teal/10 px-3 py-1.5 text-sm font-medium text-reroute-teal transition-colors hover:bg-reroute-teal hover:text-white"
               >
                 {linkLabel(item)}
                 <ExternalLink size={14} />
@@ -247,7 +247,7 @@ function StatCard({ label, value, active }: { label: string; value: string; acti
   return (
     <div
       className={`rounded-lg border bg-white p-3 shadow-sm ${
-        active ? "border-reroute-green ring-1 ring-reroute-green/40" : "border-black/5"
+        active ? "border-reroute-teal ring-1 ring-reroute-teal/40" : "border-black/5"
       }`}
     >
       <div className="text-lg font-semibold text-slate-900 sm:text-xl">{value}</div>

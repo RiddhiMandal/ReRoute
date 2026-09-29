@@ -30,8 +30,8 @@ export default function LanguageToggle({ tone = "light" }: { tone?: "light" | "d
             className={`px-2.5 py-1 transition-colors ${
               active
                 ? tone === "dark"
-                  ? "bg-white text-reroute-green"
-                  : "bg-reroute-green text-white"
+                  ? "bg-white text-reroute-teal"
+                  : "bg-reroute-teal text-white"
                 : tone === "dark"
                   ? "text-white/80 hover:bg-white/10"
                   : "text-slate-500 hover:bg-slate-100"

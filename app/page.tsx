@@ -6,6 +6,8 @@ import Header from "@/components/Header";
 import LoginGate from "@/components/LoginGate";
 import CityHero from "@/components/CityHero";
 import PlanBanner from "@/components/PlanBanner";
+import HomeHero from "@/components/HomeHero";
+import Home from "@/components/Home";
 import SectionTabs, { SECTIONS, SectionId } from "@/components/SectionTabs";
 import CityMatch from "@/components/CityMatch";
 import Housing from "@/components/Housing";
@@ -21,7 +23,7 @@ import { useI18n } from "@/lib/i18n";
 import { CITIES, DEFAULT_CITY_ID, getCityData } from "@/lib/cities";
 
 // Tabs that use a wide two-column layout (filters/results on the left, map or results on the right).
-const WIDE_SECTIONS: SectionId[] = ["match", "housing", "healthcare"];
+const WIDE_SECTIONS: SectionId[] = ["home", "match", "housing", "healthcare"];
 const VALID_SECTIONS = new Set<string>([...SECTIONS.map((s) => s.id), "checklist"]);
 
 /** Reads the current tab/city from the URL so the browser Back/Forward buttons move between them. */
@@ -58,7 +60,7 @@ export default function Page() {
 
   if (account.restoring) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-reroute-green text-white">
+      <div className="flex min-h-screen items-center justify-center bg-reroute-teal text-white">
         <span className="animate-pulse text-lg font-semibold">Reroute</span>
       </div>
     );
@@ -85,6 +87,9 @@ export default function Page() {
 
   let content: JSX.Element;
   switch (activeSection) {
+    case "home":
+      content = <Home onNavigate={navigate} />;
+      break;
     case "match":
       content = <CityMatch onExplore={(cityId) => navigate("housing", cityId)} />;
       break;
@@ -92,8 +97,8 @@ export default function Page() {
       content = (
         <div className="space-y-4">
           <button
-            onClick={() => navigate("match")}
-            className="inline-flex items-center gap-1.5 text-sm font-medium text-reroute-green hover:underline"
+            onClick={() => navigate("home")}
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-reroute-teal hover:underline"
           >
             <ArrowLeft size={14} />
             {t("check.back")}
@@ -124,6 +129,7 @@ export default function Page() {
         <Header activeCityId={activeCityId} onCityChange={changeCity} />
         <SectionTabs active={activeSection} onChange={(section) => navigate(section)} />
       </div>
+      {activeSection === "home" && <HomeHero data={cityData} onOpenChecklist={() => navigate("checklist")} />}
       {activeSection === "match" && <PlanBanner onOpen={() => navigate("checklist")} />}
       <CityHero data={cityData} />
       <section

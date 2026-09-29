@@ -50,7 +50,7 @@ export default function CityMatch({ onExplore }: { onExplore: (cityId: string) =
   return (
     <div className="space-y-8">
       <div>
-        <h2 className="text-xl font-semibold text-reroute-green">{t("match.title")}</h2>
+        <h2 className="text-xl font-semibold text-reroute-teal">{t("match.title")}</h2>
         <p className="mt-1 text-sm text-slate-600">{t("match.intro")}</p>
       </div>
 
@@ -64,7 +64,7 @@ export default function CityMatch({ onExplore }: { onExplore: (cityId: string) =
           <div>
             <label className="flex items-baseline justify-between text-sm font-medium text-slate-700">
               <span>{t("match.budget")}</span>
-              <span className="text-lg font-semibold text-reroute-green">{money(prefs.budget)}</span>
+              <span className="text-lg font-semibold text-reroute-teal">{money(prefs.budget)}</span>
             </label>
             <input
               type="range"
@@ -74,7 +74,7 @@ export default function CityMatch({ onExplore }: { onExplore: (cityId: string) =
               value={prefs.budget}
               aria-label={t("match.budget")}
               onChange={(e) => update({ ...prefs, budget: Number(e.target.value) })}
-              className="mt-2 w-full accent-reroute-green"
+              className="mt-2 w-full accent-reroute-teal"
             />
             <div className="flex justify-between text-xs text-slate-400">
               <span>{money(1500)}</span>
@@ -90,7 +90,7 @@ export default function CityMatch({ onExplore }: { onExplore: (cityId: string) =
               id="match-role"
               value={prefs.role}
               onChange={(e) => update({ ...prefs, role: e.target.value })}
-              className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm focus:border-reroute-green focus:outline-none focus:ring-1 focus:ring-reroute-green"
+              className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm focus:border-reroute-teal focus:outline-none focus:ring-1 focus:ring-reroute-teal"
             >
               <option value="">{t("match.roleNone")}</option>
               {roles.map((r) => (
@@ -109,7 +109,7 @@ export default function CityMatch({ onExplore }: { onExplore: (cityId: string) =
               id="match-language"
               value={prefs.language}
               onChange={(e) => update({ ...prefs, language: e.target.value })}
-              className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm focus:border-reroute-green focus:outline-none focus:ring-1 focus:ring-reroute-green"
+              className="mt-1 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm focus:border-reroute-teal focus:outline-none focus:ring-1 focus:ring-reroute-teal"
             >
               <option value="">{t("match.languageNone")}</option>
               {languages.map((l) => (
@@ -139,7 +139,7 @@ export default function CityMatch({ onExplore }: { onExplore: (cityId: string) =
                     onChange={(e) =>
                       update({ ...prefs, weights: { ...prefs.weights, [key]: Number(e.target.value) } })
                     }
-                    className="w-full accent-reroute-green"
+                    className="w-full accent-reroute-teal"
                   />
                 </div>
               ))}
@@ -160,7 +160,7 @@ export default function CityMatch({ onExplore }: { onExplore: (cityId: string) =
               <div
                 key={r.city.id}
                 className={`rounded-xl border bg-white p-5 shadow-sm ${
-                  index === 0 ? "border-reroute-green/40 ring-1 ring-reroute-green/30" : "border-black/5"
+                  index === 0 ? "border-reroute-teal/40 ring-1 ring-reroute-teal/30" : "border-black/5"
                 }`}
               >
                 <div className="flex items-start justify-between gap-4">
@@ -178,14 +178,14 @@ export default function CityMatch({ onExplore }: { onExplore: (cityId: string) =
                     </div>
                   </div>
                   <div className="text-right">
-                    <div className="text-2xl font-bold text-reroute-green">{r.score}%</div>
+                    <div className="text-2xl font-bold text-reroute-teal">{r.score}%</div>
                     <div className="text-xs text-slate-400">{t("match.matchWord")}</div>
                   </div>
                 </div>
 
                 <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-100">
                   <div
-                    className="h-full rounded-full bg-reroute-green transition-all"
+                    className="h-full rounded-full bg-reroute-teal transition-all"
                     style={{ width: `${r.score}%` }}
                   />
                 </div>
@@ -208,7 +208,7 @@ export default function CityMatch({ onExplore }: { onExplore: (cityId: string) =
 
                 <button
                   onClick={() => onExplore(r.city.id)}
-                  className="mt-4 inline-flex items-center gap-1.5 rounded-md bg-reroute-green px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-reroute-green-light"
+                  className="mt-4 inline-flex items-center gap-1.5 rounded-md bg-reroute-orange px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-reroute-orange-light"
                 >
                   {t("match.explore", { city: r.city.city })}
                   <ArrowRight size={14} />

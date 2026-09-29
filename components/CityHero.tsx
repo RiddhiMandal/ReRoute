@@ -14,7 +14,7 @@ export default function CityHero({ data }: { data: CityData }) {
   ];
 
   return (
-    <section className="w-full bg-reroute-green px-4 py-5 text-white sm:px-8 sm:py-7">
+    <section className="w-full bg-reroute-teal px-4 py-5 text-white sm:px-8 sm:py-7">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h1 className="text-2xl font-bold sm:text-3xl">{data.city}</h1>

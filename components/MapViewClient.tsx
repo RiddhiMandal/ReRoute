@@ -6,7 +6,7 @@ import { MapContainer, TileLayer, Marker, Tooltip, useMap } from "react-leaflet"
 import type { MapMarker } from "@/components/MapView";
 
 const TONES: Record<NonNullable<MapMarker["tone"]>, string> = {
-  green: "#1F5136",
+  green: "#0F6E56",
   amber: "#d97706",
   red: "#dc2626",
   blue: "#2563eb",

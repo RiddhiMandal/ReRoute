@@ -26,7 +26,7 @@ export default function Safety({ data }: { data: CityData }) {
 
   return (
     <div className="space-y-6">
-      <h2 className="text-xl font-semibold text-reroute-green">{t("nav.safety")}</h2>
+      <h2 className="text-xl font-semibold text-reroute-teal">{t("nav.safety")}</h2>
 
       <div className="flex flex-wrap items-center gap-3">
         <span className={`rounded-full px-4 py-1.5 text-sm font-semibold ${badgeClass}`}>
@@ -51,7 +51,7 @@ export default function Safety({ data }: { data: CityData }) {
         target="_blank"
         rel="noopener noreferrer"
         onClick={() => trackOutboundClick("safety", safety.source_url)}
-        className="inline-flex items-center gap-1.5 text-sm font-medium text-reroute-green underline"
+        className="inline-flex items-center gap-1.5 text-sm font-medium text-reroute-teal underline"
       >
         {t("safety.fullData")}
         <ExternalLink size={14} />
@@ -65,7 +65,7 @@ export default function Safety({ data }: { data: CityData }) {
               key={n.key}
               className="flex items-center gap-3 rounded-xl border border-black/5 bg-white p-4 shadow-sm"
             >
-              <Phone size={18} className="shrink-0 text-reroute-green" />
+              <Phone size={18} className="shrink-0 text-reroute-teal" />
               <div>
                 <div className="text-lg font-semibold text-slate-900">{n.value}</div>
                 <div className="text-xs text-slate-500">{t(n.key)}</div>
@@ -73,7 +73,7 @@ export default function Safety({ data }: { data: CityData }) {
             </div>
           ))}
           <div className="flex items-center gap-3 rounded-xl border border-black/5 bg-white p-4 shadow-sm sm:col-span-2">
-            <Phone size={18} className="shrink-0 text-reroute-green" />
+            <Phone size={18} className="shrink-0 text-reroute-teal" />
             <div>
               <div className="text-lg font-semibold text-slate-900">{tr(safety.police_non_emergency)}</div>
               <div className="text-xs text-slate-500">

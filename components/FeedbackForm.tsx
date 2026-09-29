@@ -15,7 +15,7 @@ export default function FeedbackForm() {
 
   return (
     <section className="border-t border-black/5 bg-white px-6 py-10">
-      <h2 className="text-lg font-semibold text-reroute-green">{t("feedback.title")}</h2>
+      <h2 className="text-lg font-semibold text-reroute-teal">{t("feedback.title")}</h2>
       <p className="mt-1 text-sm text-slate-500">{t("feedback.subtitle")}</p>
 
       {TALLY_EMBED_URL ? (
@@ -44,7 +44,7 @@ export default function FeedbackForm() {
                 aria-label={t("feedback.outOf5", { n })}
                 aria-pressed={rating === n}
                 className={`h-9 w-9 rounded-full text-sm font-medium transition-colors ${
-                  rating === n ? "bg-reroute-green text-white" : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                  rating === n ? "bg-reroute-teal text-white" : "bg-slate-100 text-slate-600 hover:bg-slate-200"
                 }`}
               >
                 {n}
@@ -57,11 +57,11 @@ export default function FeedbackForm() {
             rows={3}
             placeholder={t("feedback.placeholder")}
             aria-label={t("feedback.placeholder")}
-            className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-reroute-green focus:outline-none focus:ring-1 focus:ring-reroute-green"
+            className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-reroute-teal focus:outline-none focus:ring-1 focus:ring-reroute-teal"
           />
           <button
             type="submit"
-            className="rounded-md bg-reroute-green px-4 py-2 text-sm font-medium text-white hover:bg-reroute-green-light"
+            className="rounded-md bg-reroute-orange px-4 py-2 text-sm font-medium text-white hover:bg-reroute-orange-light"
           >
             {t("feedback.send")}
           </button>

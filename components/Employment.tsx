@@ -57,7 +57,7 @@ export default function Employment({ data }: { data: CityData }) {
 
   return (
     <div className="space-y-6">
-      <h2 className="text-xl font-semibold text-reroute-green">{t("nav.employment")}</h2>
+      <h2 className="text-xl font-semibold text-reroute-teal">{t("nav.employment")}</h2>
 
       <div>
         <h3 className="text-sm font-medium text-slate-700">{t("jobs.topRoles")}</h3>
@@ -90,7 +90,7 @@ export default function Employment({ data }: { data: CityData }) {
             onChange={(e) => setQuery(e.target.value)}
             placeholder={t("jobs.searchPlaceholder")}
             aria-label={t("jobs.searchPlaceholder")}
-            className="w-full rounded-lg border border-slate-300 py-2 pl-9 pr-3 text-sm shadow-sm focus:border-reroute-green focus:outline-none focus:ring-1 focus:ring-reroute-green"
+            className="w-full rounded-lg border border-slate-300 py-2 pl-9 pr-3 text-sm shadow-sm focus:border-reroute-teal focus:outline-none focus:ring-1 focus:ring-reroute-teal"
           />
         </div>
 
@@ -103,7 +103,7 @@ export default function Employment({ data }: { data: CityData }) {
                 onClick={() => setActiveIndustry(isActive ? null : industry)}
                 aria-pressed={isActive}
                 className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${
-                  isActive ? "bg-reroute-green text-white" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+                  isActive ? "bg-reroute-teal text-white" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
                 }`}
               >
                 {tr(industry)}
@@ -129,7 +129,7 @@ export default function Employment({ data }: { data: CityData }) {
               >
                 <div
                   className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-sm font-bold text-white ${
-                    INDUSTRY_COLORS[employer.industry] ?? "bg-reroute-green"
+                    INDUSTRY_COLORS[employer.industry] ?? "bg-reroute-teal"
                   }`}
                 >
                   {initials(employer.name)}
@@ -163,7 +163,7 @@ export default function Employment({ data }: { data: CityData }) {
         target="_blank"
         rel="noopener noreferrer"
         onClick={() => trackOutboundClick("employment", employment.job_bank_url)}
-        className="inline-flex items-center gap-1.5 rounded-md bg-reroute-green px-4 py-2 text-sm font-medium text-white hover:bg-reroute-green-light"
+        className="inline-flex items-center gap-1.5 rounded-md bg-reroute-orange px-4 py-2 text-sm font-medium text-white hover:bg-reroute-orange-light"
       >
         {t("jobs.jobBank", { city: data.city })}
         <ExternalLink size={14} />

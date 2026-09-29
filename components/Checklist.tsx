@@ -94,7 +94,7 @@ export default function Checklist({ onNavigate }: { onNavigate: (section: Sectio
   return (
     <div className="space-y-6">
       <div>
-        <h2 className="text-xl font-semibold text-reroute-green">{t("check.title")}</h2>
+        <h2 className="text-xl font-semibold text-reroute-teal">{t("check.title")}</h2>
         <p className="mt-1 text-sm text-slate-600">
           {userType === "internal" ? t("check.introInternal") : t("check.introNewcomer")}
         </p>
@@ -103,10 +103,10 @@ export default function Checklist({ onNavigate }: { onNavigate: (section: Sectio
       <div className="rounded-xl border border-black/5 bg-white p-4 shadow-sm">
         <div className="flex items-baseline justify-between text-sm">
           <span className="font-medium text-slate-700">{t("check.progress", { done: completed, total })}</span>
-          <span className="font-semibold text-reroute-green">{pct}%</span>
+          <span className="font-semibold text-reroute-teal">{pct}%</span>
         </div>
         <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-100">
-          <div className="h-full rounded-full bg-reroute-green transition-all" style={{ width: `${pct}%` }} />
+          <div className="h-full rounded-full bg-reroute-teal transition-all" style={{ width: `${pct}%` }} />
         </div>
       </div>
 
@@ -127,7 +127,7 @@ export default function Checklist({ onNavigate }: { onNavigate: (section: Sectio
                     type="checkbox"
                     checked={checked}
                     onChange={() => setSaved("checklist", { ...done, [item.id]: !checked })}
-                    className="mt-1 h-4 w-4 shrink-0 accent-reroute-green"
+                    className="mt-1 h-4 w-4 shrink-0 accent-reroute-teal"
                   />
                   <div className="min-w-0 flex-1">
                     <div className={`font-medium ${checked ? "text-slate-400 line-through" : "text-slate-900"}`}>
@@ -141,7 +141,7 @@ export default function Checklist({ onNavigate }: { onNavigate: (section: Sectio
                     {item.goTo && (
                       <button
                         onClick={() => onNavigate(item.goTo!)}
-                        className="inline-flex items-center gap-1.5 rounded-md bg-reroute-green px-3 py-1.5 text-sm font-medium text-white transition-colors hover:bg-reroute-green-light"
+                        className="inline-flex items-center gap-1.5 rounded-md bg-reroute-orange px-3 py-1.5 text-sm font-medium text-white transition-colors hover:bg-reroute-orange-light"
                       >
                         {t(`check.go.${item.goTo}`)}
                         <ArrowRight size={14} />
@@ -153,7 +153,7 @@ export default function Checklist({ onNavigate }: { onNavigate: (section: Sectio
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={() => trackOutboundClick("checklist", item.id)}
-                        className="inline-flex items-center gap-1.5 rounded-md bg-reroute-green/10 px-3 py-1.5 text-sm font-medium text-reroute-green transition-colors hover:bg-reroute-green hover:text-white"
+                        className="inline-flex items-center gap-1.5 rounded-md bg-reroute-teal/10 px-3 py-1.5 text-sm font-medium text-reroute-teal transition-colors hover:bg-reroute-teal hover:text-white"
                       >
                         {t(`check.${item.id}.link`)}
                         <ExternalLink size={14} />

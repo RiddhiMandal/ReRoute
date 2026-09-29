@@ -68,12 +68,36 @@ export const EN: Record<string, string> = {
 
   // navigation
   "nav.aria": "Sections",
+  "nav.home": "Home",
   "nav.match": "Find my city",
   "nav.housing": "Housing",
   "nav.healthcare": "Healthcare",
   "nav.safety": "Safety",
   "nav.employment": "Employment",
   "nav.community": "Community",
+
+  // home page
+  "home.findCity.title": "Find my city",
+  "home.findCity.subtitle":
+    "Tell us about you and we'll rank the GTA cities using real rent, crime, jobs and language data. Your answers are saved to your profile.",
+  "home.searchPlaceholder": "Search a city (e.g. Mississauga, Brampton, Toronto)",
+  "home.search": "Search",
+  "home.card.housing.desc": "Rent, neighbourhoods and listings",
+  "home.card.healthcare.desc": "Hospitals, clinics and wait times",
+  "home.card.safety.desc": "Crime data and neighbourhood safety",
+  "home.card.employment.desc": "Jobs, industries and commute",
+  "home.card.community.desc": "Language, culture and settlement support",
+  "home.why.title": "Why Reroute?",
+  "home.why.1.title": "Real data, real insights",
+  "home.why.1.body": "Get up-to-date info on rent, safety, jobs and more.",
+  "home.why.2.title": "Personalized recommendations",
+  "home.why.2.body": "Find cities that match your goals and lifestyle.",
+  "home.why.3.title": "Save and compare",
+  "home.why.3.body": "Keep your favourite cities and answers in your profile.",
+  "home.popular.title": "Popular cities in the GTA",
+  "home.popular.viewAll": "View all cities",
+  "home.popular.favorite": "Save {city} as a favourite",
+  "home.popular.unfavorite": "Remove {city} from favourites",
 
   // 30-day banner
   "banner.aria": "30-day plan for newcomers",
@@ -441,12 +465,36 @@ export const FR: Record<string, string> = {
 
   // navigation
   "nav.aria": "Sections",
+  "nav.home": "Accueil",
   "nav.match": "Trouver ma ville",
   "nav.housing": "Logement",
   "nav.healthcare": "Santé",
   "nav.safety": "Sécurité",
   "nav.employment": "Emploi",
   "nav.community": "Communauté",
+
+  // page d'accueil
+  "home.findCity.title": "Trouver ma ville",
+  "home.findCity.subtitle":
+    "Parlez-nous de vous et nous classerons les villes du GTA selon les données réelles sur le loyer, la criminalité, l'emploi et la langue. Vos réponses sont enregistrées dans votre profil.",
+  "home.searchPlaceholder": "Rechercher une ville (ex. Mississauga, Brampton, Toronto)",
+  "home.search": "Rechercher",
+  "home.card.housing.desc": "Loyer, quartiers et annonces",
+  "home.card.healthcare.desc": "Hôpitaux, cliniques et délais d'attente",
+  "home.card.safety.desc": "Données sur la criminalité et sécurité des quartiers",
+  "home.card.employment.desc": "Emplois, industries et déplacements",
+  "home.card.community.desc": "Langue, culture et aide à l'établissement",
+  "home.why.title": "Pourquoi Reroute?",
+  "home.why.1.title": "Données réelles, aperçus concrets",
+  "home.why.1.body": "Obtenez des informations à jour sur le loyer, la sécurité, l'emploi et plus encore.",
+  "home.why.2.title": "Recommandations personnalisées",
+  "home.why.2.body": "Trouvez les villes qui correspondent à vos objectifs et à votre mode de vie.",
+  "home.why.3.title": "Enregistrer et comparer",
+  "home.why.3.body": "Gardez vos villes favorites et vos réponses dans votre profil.",
+  "home.popular.title": "Villes populaires du GTA",
+  "home.popular.viewAll": "Voir toutes les villes",
+  "home.popular.favorite": "Ajouter {city} aux favoris",
+  "home.popular.unfavorite": "Retirer {city} des favoris",
 
   // 30-day banner
   "banner.aria": "Plan de 30 jours pour les nouveaux arrivants",

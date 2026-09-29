@@ -40,7 +40,7 @@ export default function Community({ data }: { data: CityData }) {
 
   return (
     <div className="space-y-6">
-      <h2 className="text-xl font-semibold text-reroute-green">{t("nav.community")}</h2>
+      <h2 className="text-xl font-semibold text-reroute-teal">{t("nav.community")}</h2>
 
       <div>
         <h3 className="text-sm font-medium text-slate-700">{t("community.languagesTitle", { city: data.city })}</h3>
@@ -70,14 +70,14 @@ export default function Community({ data }: { data: CityData }) {
               onChange={(e) => setQuery(e.target.value)}
               placeholder={t("community.searchPlaceholder")}
               aria-label={t("community.searchPlaceholder")}
-              className="w-full rounded-lg border border-slate-300 py-2 pl-9 pr-3 text-sm shadow-sm focus:border-reroute-green focus:outline-none focus:ring-1 focus:ring-reroute-green"
+              className="w-full rounded-lg border border-slate-300 py-2 pl-9 pr-3 text-sm shadow-sm focus:border-reroute-teal focus:outline-none focus:ring-1 focus:ring-reroute-teal"
             />
           </div>
           <select
             value={language}
             onChange={(e) => setLanguage(e.target.value)}
             aria-label={t("community.filterLanguage")}
-            className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm shadow-sm focus:border-reroute-green focus:outline-none focus:ring-1 focus:ring-reroute-green"
+            className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm shadow-sm focus:border-reroute-teal focus:outline-none focus:ring-1 focus:ring-reroute-teal"
           >
             <option value="">{t("community.anyLanguage")}</option>
             {languageOptions.map((l) => (
@@ -139,7 +139,7 @@ export default function Community({ data }: { data: CityData }) {
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => trackOutboundClick("community", agency.name)}
-                  className="mt-4 inline-flex items-center gap-1.5 self-start rounded-md bg-reroute-green/10 px-3 py-1.5 text-sm font-medium text-reroute-green transition-colors hover:bg-reroute-green hover:text-white"
+                  className="mt-4 inline-flex items-center gap-1.5 self-start rounded-md bg-reroute-teal/10 px-3 py-1.5 text-sm font-medium text-reroute-teal transition-colors hover:bg-reroute-teal hover:text-white"
                 >
                   <MapPin size={14} />
                   {t("common.viewGoogleMaps")}
@@ -155,7 +155,7 @@ export default function Community({ data }: { data: CityData }) {
         target="_blank"
         rel="noopener noreferrer"
         onClick={() => trackOutboundClick("community", community.settlement_url)}
-        className="inline-flex items-center gap-1.5 rounded-md bg-reroute-green px-4 py-2 text-sm font-medium text-white hover:bg-reroute-green-light"
+        className="inline-flex items-center gap-1.5 rounded-md bg-reroute-orange px-4 py-2 text-sm font-medium text-white hover:bg-reroute-orange-light"
       >
         {t("community.ircc")}
         <ExternalLink size={14} />

@@ -9,8 +9,11 @@ const config: Config = {
     extend: {
       colors: {
         reroute: {
-          green: "#1F5136",
-          "green-light": "#2E7D4F",
+          teal: "#0F6E56",
+          "teal-light": "#15997A",
+          navy: "#14213D",
+          orange: "#D85A30",
+          "orange-light": "#E67C4E",
           cream: "#F7F5F0",
         },
       },

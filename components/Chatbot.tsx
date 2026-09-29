@@ -54,7 +54,7 @@ export default function Chatbot({
           aria-label={t("bot.title")}
           className="fixed bottom-20 right-4 z-50 flex h-[min(32rem,calc(100vh-7rem))] w-[calc(100vw-2rem)] max-w-sm flex-col overflow-hidden rounded-2xl border border-black/10 bg-white shadow-2xl"
         >
-          <div className="flex items-center justify-between bg-reroute-green px-4 py-3 text-white">
+          <div className="flex items-center justify-between bg-reroute-teal px-4 py-3 text-white">
             <div>
               <div className="text-sm font-semibold">{t("bot.title")}</div>
               <div className="text-xs text-white/70">{t("bot.subtitle", { city: city.city })}</div>
@@ -75,7 +75,7 @@ export default function Chatbot({
                   <div
                     className={`rounded-2xl px-3.5 py-2 text-sm leading-relaxed ${
                       m.from === "user"
-                        ? "rounded-br-sm bg-reroute-green text-white"
+                        ? "rounded-br-sm bg-reroute-teal text-white"
                         : "rounded-bl-sm bg-white text-slate-700 shadow-sm ring-1 ring-black/5"
                     }`}
                   >
@@ -90,7 +90,7 @@ export default function Chatbot({
                             onNavigate(a.section, a.cityId);
                             setOpen(false);
                           }}
-                          className="rounded-full bg-reroute-green/10 px-3 py-1 text-xs font-medium text-reroute-green transition-colors hover:bg-reroute-green hover:text-white"
+                          className="rounded-full bg-reroute-teal/10 px-3 py-1 text-xs font-medium text-reroute-teal transition-colors hover:bg-reroute-teal hover:text-white"
                         >
                           {a.label}
                         </button>
@@ -127,12 +127,12 @@ export default function Chatbot({
                 onChange={(e) => setInput(e.target.value)}
                 placeholder={t("bot.placeholder")}
                 aria-label={t("bot.placeholder")}
-                className="min-w-0 flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-reroute-green focus:outline-none focus:ring-1 focus:ring-reroute-green"
+                className="min-w-0 flex-1 rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-reroute-teal focus:outline-none focus:ring-1 focus:ring-reroute-teal"
               />
               <button
                 type="submit"
                 aria-label={t("bot.send")}
-                className="rounded-lg bg-reroute-green px-3 text-white transition-colors hover:bg-reroute-green-light"
+                className="rounded-lg bg-reroute-orange px-3 text-white transition-colors hover:bg-reroute-orange-light"
               >
                 <Send size={16} />
               </button>
@@ -144,7 +144,7 @@ export default function Chatbot({
       <button
         onClick={() => setOpen((o) => !o)}
         aria-label={open ? t("common.close") : t("bot.open")}
-        className="fixed bottom-4 right-4 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-reroute-green text-white shadow-lg transition-transform hover:scale-105 hover:bg-reroute-green-light"
+        className="fixed bottom-4 right-4 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-reroute-orange text-white shadow-lg transition-transform hover:scale-105 hover:bg-reroute-orange-light"
       >
         {open ? <X size={24} /> : <MessageCircle size={24} />}
       </button>

@@ -24,7 +24,7 @@ export default function Header({
     <header className="flex items-center justify-between gap-3 border-b border-black/5 bg-white px-4 py-3 sm:px-6 sm:py-4">
       <div className="flex min-w-0 items-center gap-2">
         <Image src="/logo.svg" alt="" width={32} height={32} />
-        <span className="hidden text-lg font-semibold text-reroute-green sm:inline">Reroute</span>
+        <span className="hidden text-lg font-semibold text-reroute-teal sm:inline">Reroute</span>
       </div>
       <div className="flex items-center gap-2 sm:gap-3">
         <CitySelector activeCityId={activeCityId} onChange={onCityChange} />
@@ -32,7 +32,7 @@ export default function Header({
         <button
           onClick={() => setProfileOpen(true)}
           aria-label={t("profile.title")}
-          className="flex items-center gap-1.5 rounded-full border border-black/10 px-2.5 py-1.5 text-sm text-reroute-green hover:bg-reroute-cream"
+          className="flex items-center gap-1.5 rounded-full border border-black/10 px-2.5 py-1.5 text-sm text-reroute-teal hover:bg-reroute-cream"
         >
           <UserRound size={16} />
           <span className="hidden max-w-[8rem] truncate font-medium sm:inline">

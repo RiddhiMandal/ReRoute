@@ -56,7 +56,7 @@ export default function ProfilePanel({ onClose }: { onClose: () => void }) {
       >
         <div className="flex items-start justify-between">
           <div>
-            <h2 className="text-lg font-semibold text-reroute-green">{t("profile.title")}</h2>
+            <h2 className="text-lg font-semibold text-reroute-teal">{t("profile.title")}</h2>
             <p className="text-xs text-slate-500">
               {account.isSignedIn ? account.email : t("profile.guest")}
             </p>
@@ -75,11 +75,11 @@ export default function ProfilePanel({ onClose }: { onClose: () => void }) {
               id="pf-name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="min-w-0 flex-1 rounded-md border border-slate-300 px-3 py-2 text-sm focus:border-reroute-green focus:outline-none focus:ring-1 focus:ring-reroute-green"
+              className="min-w-0 flex-1 rounded-md border border-slate-300 px-3 py-2 text-sm focus:border-reroute-teal focus:outline-none focus:ring-1 focus:ring-reroute-teal"
             />
             <button
               onClick={saveName}
-              className="rounded-md bg-reroute-green px-3 text-sm font-medium text-white hover:bg-reroute-green-light"
+              className="rounded-md bg-reroute-orange px-3 text-sm font-medium text-white hover:bg-reroute-orange-light"
             >
               {saved ? t("profile.saved") : t("common.save")}
             </button>
@@ -146,7 +146,7 @@ export default function ProfilePanel({ onClose }: { onClose: () => void }) {
                 account.leaveGuest();
                 onClose();
               }}
-              className="w-full rounded-md bg-reroute-green px-4 py-2 text-sm font-medium text-white hover:bg-reroute-green-light"
+              className="w-full rounded-md bg-reroute-orange px-4 py-2 text-sm font-medium text-white hover:bg-reroute-orange-light"
             >
               {t("profile.createAccount")}
             </button>

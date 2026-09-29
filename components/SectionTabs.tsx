@@ -1,11 +1,12 @@
 "use client";
 
-import { Compass, Home, HeartPulse, ShieldCheck, Briefcase, Users } from "lucide-react";
+import { Home, Compass, Building2, HeartPulse, ShieldCheck, Briefcase, Users } from "lucide-react";
 import { useI18n } from "@/lib/i18n";
 
 export const SECTIONS = [
+  { id: "home", labelKey: "nav.home", icon: Home },
   { id: "match", labelKey: "nav.match", icon: Compass },
-  { id: "housing", labelKey: "nav.housing", icon: Home },
+  { id: "housing", labelKey: "nav.housing", icon: Building2 },
   { id: "healthcare", labelKey: "nav.healthcare", icon: HeartPulse },
   { id: "safety", labelKey: "nav.safety", icon: ShieldCheck },
   { id: "employment", labelKey: "nav.employment", icon: Briefcase },
@@ -37,8 +38,8 @@ export default function SectionTabs({
             aria-current={isActive ? "page" : undefined}
             className={`flex shrink-0 items-center gap-2 border-b-2 px-4 py-3 text-sm font-medium transition-colors ${
               isActive
-                ? "border-reroute-green text-reroute-green"
-                : "border-transparent text-slate-500 hover:text-reroute-green"
+                ? "border-reroute-teal text-reroute-teal"
+                : "border-transparent text-slate-500 hover:text-reroute-teal"
             }`}
           >
             <Icon size={16} />

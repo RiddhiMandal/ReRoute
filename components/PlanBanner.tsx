@@ -28,7 +28,7 @@ export default function PlanBanner({ onOpen }: { onOpen: () => void }) {
   return (
     <section
       aria-label={t("banner.aria")}
-      className="relative overflow-hidden bg-gradient-to-r from-reroute-green-light to-reroute-green px-4 py-5 text-white sm:px-8"
+      className="relative overflow-hidden bg-gradient-to-r from-reroute-teal-light to-reroute-teal px-4 py-5 text-white sm:px-8"
     >
       <div className="mx-auto flex max-w-5xl items-center gap-3">
         <button
@@ -46,7 +46,7 @@ export default function PlanBanner({ onOpen }: { onOpen: () => void }) {
           <div className="mt-3 flex items-center gap-4">
             <button
               onClick={onOpen}
-              className="inline-flex items-center gap-1.5 rounded-md bg-white px-3.5 py-1.5 text-sm font-medium text-reroute-green transition-colors hover:bg-reroute-cream"
+              className="inline-flex items-center gap-1.5 rounded-md bg-white px-3.5 py-1.5 text-sm font-medium text-reroute-teal transition-colors hover:bg-reroute-cream"
             >
               {t("banner.cta")}
               <ArrowRight size={14} />

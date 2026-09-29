@@ -8,7 +8,7 @@ import LanguageToggle from "@/components/LanguageToggle";
 type View = "choice" | "signup" | "signin";
 
 const inputClass =
-  "w-full rounded-md border border-slate-300 px-3 py-2 text-sm focus:border-reroute-green focus:outline-none focus:ring-1 focus:ring-reroute-green";
+  "w-full rounded-md border border-slate-300 px-3 py-2 text-sm focus:border-reroute-teal focus:outline-none focus:ring-1 focus:ring-reroute-teal";
 
 function Field({ label, htmlFor, children }: { label: string; htmlFor: string; children: React.ReactNode }) {
   return (
@@ -43,7 +43,7 @@ export function UserTypePicker({
           <label
             key={o.id}
             className={`flex cursor-pointer items-start gap-2 rounded-lg border p-3 text-left text-sm transition-colors ${
-              value === o.id ? "border-reroute-green bg-reroute-green/5" : "border-slate-200 hover:bg-slate-50"
+              value === o.id ? "border-reroute-teal bg-reroute-teal/5" : "border-slate-200 hover:bg-slate-50"
             }`}
           >
             <input
@@ -51,7 +51,7 @@ export function UserTypePicker({
               name={name}
               checked={value === o.id}
               onChange={() => onChange(o.id)}
-              className="mt-0.5 accent-reroute-green"
+              className="mt-0.5 accent-reroute-teal"
             />
             <span>
               <span className="block font-medium text-slate-800">{o.label}</span>
@@ -128,16 +128,16 @@ export default function LoginGate() {
   }
 
   const primary =
-    "rounded-md bg-reroute-green px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-reroute-green-light disabled:opacity-60";
+    "rounded-md bg-reroute-orange px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-reroute-orange-light disabled:opacity-60";
 
   return (
-    <div className="relative flex min-h-screen items-center justify-center bg-gradient-to-br from-reroute-green to-reroute-green-light p-5">
+    <div className="relative flex min-h-screen items-center justify-center bg-gradient-to-br from-reroute-teal to-reroute-teal-light p-5">
       <div className="absolute right-4 top-4">
         <LanguageToggle tone="dark" />
       </div>
 
       <div className="w-full max-w-md rounded-2xl bg-white p-8 text-center shadow-2xl sm:p-10">
-        <h1 className="text-3xl font-bold text-reroute-green">Reroute</h1>
+        <h1 className="text-3xl font-bold text-reroute-teal">Reroute</h1>
         <p className="mb-7 mt-1 text-sm text-slate-500">{t("auth.tagline")}</p>
 
         {view === "choice" && (
@@ -147,7 +147,7 @@ export default function LoginGate() {
             </button>
             <button
               onClick={() => go("signin")}
-              className="rounded-md bg-reroute-cream px-4 py-2.5 text-sm font-semibold text-reroute-green hover:bg-reroute-green/10"
+              className="rounded-md bg-reroute-cream px-4 py-2.5 text-sm font-semibold text-reroute-teal hover:bg-reroute-teal/10"
             >
               {t("auth.signIn")}
             </button>
